@@ -36,12 +36,27 @@ const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
 const alert = document.getElementById("display-alert");
 const startButton = document.getElementById("start-button");
+// Variavle to keep array current
+let initialQuestion = 0; 
 
 // Add EventListner for next button
-
 nextButton.addEventListener('click', function() {
     displayQuestions();
 })
+
+// Function to show questions and options
+function displayQuestions() {
+    const questionItem = questions_Options[initialQuestion];
+    quizQuestions.textContent = questionItem.ques;
+    quizChoices.textContent = "";
+    for (i = 0; i < questionItem.opts.length; i++) {
+        const currentOption = questionItem.opts[i];
+        const optiondiv = document.createElement('div');
+        optiondiv.textContent = currentOption;
+        quizChoices.appendChild(optiondiv);
+    }
+
+}
 
 
 
