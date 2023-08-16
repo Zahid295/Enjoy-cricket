@@ -1,3 +1,5 @@
+ //Array for questions and choices 
+  
 const questions_Options = [
     {
         ques: "What is the biggest capacity cricket ground in England?",
@@ -25,3 +27,12 @@ const questions_Options = [
         correct_option: "903", 
     }
 ];
+
+// Retrieving html elements in variables
+const quizBox = document.getElementById("main-box");
+const quizQuestions = document.getElementById("questions");
+const quizChoices = document.getElementById("choices");
+const nextButton = document.getElementById("next-button");
+const quizScore = document.getElementById("quiz-score");
+const alert = document.getElementById("display-alert");
+const startButton = document.getElementById("start-button");
