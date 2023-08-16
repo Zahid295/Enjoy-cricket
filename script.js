@@ -20,7 +20,7 @@ const questions_Options = [
         ques: "Where will the 2023 Cricket World Cup be hosted?",
         opts: ["Pakistan", "India", "England", "Ireland "],
         correct_option: "India",
-    }
+    },
     {
         ques: "What is the highest first innings score in test cricket?",
         opts: ["903", "803", "1000", "602"],
@@ -36,3 +36,14 @@ const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
 const alert = document.getElementById("display-alert");
 const startButton = document.getElementById("start-button");
+
+// Add EventListner for next button
+
+nextButton.addEventListener('click', function() {
+    displayQuestions();
+})
+
+
+
+
+    
