@@ -57,6 +57,7 @@ function testAnswer() {
         } else {
 
                quizscore();
+               quizFinish = true;
         }
 }
 // Function to display score
@@ -75,9 +76,19 @@ nextButton.addEventListener('click', function() {
     if (!selectedOption && nextButton.textContent === "Next") {
         alert("Select your Answer")
         return;
-    } else {
+    }
+    if (quizFinish) {
+        nextButton.textContent = "Next";
+        quizScore.textContent = "";
+        initialQuestion = 0;
+        displayQuestions();
+        quizFinish = false;
+        score = 0;
+    }
+    else {
         testAnswer();
     }
+    testAnswer();
       
 });
 
