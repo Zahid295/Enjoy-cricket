@@ -62,7 +62,7 @@ body {
     
 }
 .option:hover {
-    background-color: blue;
+    background-color: rgb(238, 199, 199)
 }
 .button:hover {
     background-color: red;
