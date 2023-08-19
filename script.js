@@ -44,20 +44,30 @@ function testAnswer() {
     const selectedOption = document.querySelector('.option.selected');
     if (selectedOption.textContent === questions_Options[initialQuestion].correct_option) {
         alert("Correct Answer");
+        score++;
         
     } else {
         alert("Wrong Answer");
     }
+       initialQuestion++;
+       if (initialQuestion < questions_Options.length) {
+            displayQuestions();
+    
+        } else {
+
+               quizscore();
+        }
 }
+// Function to display score
+function quizscore() {
+  quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
+}
+  
 
 // Add EventListner for next button
 displayQuestions();
 nextButton.addEventListener('click', function() {
        testAnswer();
-    if (initialQuestion < questions_Options.length) {
-        initialQuestion++;
-        displayQuestions();
-    }
 });
 
 // Function to show questions and options
