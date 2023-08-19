@@ -22,7 +22,7 @@ body {
 }
 #main-box {
     
-    background-color: #54c2cc;
+    background-color: yellow;
     box-sizing: border-box;
     width: 80%;
     height: 55vh;
@@ -40,7 +40,7 @@ body {
     
 }
 .option{
-    background-color: yellow;
+    background-color: white;
     font-size: 15px;
     margin: 10px auto 10px auto;
     padding: 10px;
