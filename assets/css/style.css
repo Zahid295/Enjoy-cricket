@@ -67,4 +67,7 @@ body {
 .button:hover {
     background-color: red;
 }
+.selected {
+    background-color: blue;
+}
 
