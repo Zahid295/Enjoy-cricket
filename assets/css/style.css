@@ -35,4 +35,18 @@ body {
 .quiz {
     font-size: 20px;
     margin: 15px;
+    color: black;
+    font-weight: 600;
+    
+}
+.option{
+    background-color: yellow;
+    font-size: 15px;
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+
 }
