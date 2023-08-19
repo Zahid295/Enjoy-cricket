@@ -34,20 +34,31 @@ const quizQuestions = document.getElementById("questions");
 const quizChoices = document.getElementById("choices");
 const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
-const alert = document.getElementById("display-alert");
+const quiz_alert = document.getElementById("display-alert");
 const startButton = document.getElementById("start-button");
 // Variable to keep array current
 let initialQuestion = 0;
-let score = 0; 
+let score = 0;
+// Function to test correct and wrong answers
+function testAnswer() {
+    const selectedOption = document.querySelector('.option.selected');
+    if (selectedOption.textContent === questions_Options[initialQuestion].correct_option) {
+        alert("Correct Answer");
+        
+    } else {
+        alert("Wrong Answer");
+    }
+}
 
 // Add EventListner for next button
 displayQuestions();
 nextButton.addEventListener('click', function() {
+       testAnswer();
     if (initialQuestion < questions_Options.length) {
         initialQuestion++;
         displayQuestions();
     }
-})
+});
 
 // Function to show questions and options
 function displayQuestions() {
