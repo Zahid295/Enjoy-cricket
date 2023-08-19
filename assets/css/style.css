@@ -70,4 +70,8 @@ body {
 .option.selected {
     background-color: blue;
 }
+#quiz-score {
+    font-size: 20px;
+    margin-top: 20px;
+}
 

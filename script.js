@@ -60,7 +60,9 @@ function testAnswer() {
 }
 // Function to display score
 function quizscore() {
-  quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
+    quizQuestions.textContent = "";
+    quizChoices.textContent = "";
+    quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
 }
   
 
