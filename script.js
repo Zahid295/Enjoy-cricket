@@ -59,6 +59,14 @@ function displayQuestions() {
         optiondiv.textContent = currentOption;
         optiondiv.classList.add("option");
         quizChoices.appendChild(optiondiv);
+
+        optiondiv.addEventListener('click', function() {
+              if (optiondiv.classList.contains('selected')) {
+                optiondiv.classList.remove('selected')
+              } else {
+                optiondiv.classList.add('selected')
+              }
+        });
     }
 
 }
