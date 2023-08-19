@@ -39,6 +39,7 @@ const startButton = document.getElementById("start-button");
 // Variable to keep array current
 let initialQuestion = 0;
 let score = 0;
+let quizFinish = false;
 // Function to test correct and wrong answers
 function testAnswer() {
     const selectedOption = document.querySelector('.option.selected');
@@ -71,7 +72,7 @@ function quizscore() {
 displayQuestions();
 nextButton.addEventListener('click', function() {
     const selectedOption = document.querySelector('.option.selected');
-    if (!selectedOption) {
+    if (!selectedOption && nextButton.textContent === "Next") {
         alert("Select your Answer")
         return;
     } else {
