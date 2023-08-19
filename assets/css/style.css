@@ -1,7 +1,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
-    background-color:green;
+    background-color: rgba(255, 0, 0, 0.742);
     text-align: center;
 }
 .heading-box {
@@ -50,3 +50,14 @@ body {
     width: 50%;
 
 }
+.button {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px;
+    margin: 10px auto 0px auto;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
