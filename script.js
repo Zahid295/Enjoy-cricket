@@ -63,13 +63,21 @@ function quizscore() {
     quizQuestions.textContent = "";
     quizChoices.textContent = "";
     quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
+    nextButton.textContent = "Play Again";
 }
   
 
 // Add EventListner for next button
 displayQuestions();
 nextButton.addEventListener('click', function() {
-       testAnswer();
+    const selectedOption = document.querySelector('.option.selected');
+    if (!selectedOption) {
+        alert("Select your Answer")
+        return;
+    } else {
+        testAnswer();
+    }
+      
 });
 
 // Function to show questions and options
