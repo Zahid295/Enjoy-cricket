@@ -36,12 +36,16 @@ const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
 const alert = document.getElementById("display-alert");
 const startButton = document.getElementById("start-button");
-// Variavle to keep array current
+// Variable to keep array current
 let initialQuestion = 0; 
 
 // Add EventListner for next button
+displayQuestions();
 nextButton.addEventListener('click', function() {
-    displayQuestions();
+    if (initialQuestion < questions_Options.length) {
+        initialQuestion++;
+        displayQuestions();
+    }
 })
 
 // Function to show questions and options
