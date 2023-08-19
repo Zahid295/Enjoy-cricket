@@ -37,7 +37,8 @@ const quizScore = document.getElementById("quiz-score");
 const alert = document.getElementById("display-alert");
 const startButton = document.getElementById("start-button");
 // Variable to keep array current
-let initialQuestion = 0; 
+let initialQuestion = 0;
+let score = 0; 
 
 // Add EventListner for next button
 displayQuestions();
