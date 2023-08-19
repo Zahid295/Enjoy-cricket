@@ -61,4 +61,10 @@ body {
     border-radius: 5px;
     
 }
+.option:hover {
+    background-color: blue;
+}
+.button:hover {
+    background-color: red;
+}
 
