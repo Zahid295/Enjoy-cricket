@@ -4,3 +4,11 @@ body {
     background-color:green;
     text-align: center;
 }
+.quiz-heading1 {
+    text-align: center;
+    font-size: 40px;
+}
+.quiz-heading2 {
+    text-align: center;
+    font-size: 25px;
+}
