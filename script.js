@@ -57,6 +57,7 @@ function displayQuestions() {
         const currentOption = questionItem.opts[i];
         const optiondiv = document.createElement('div');
         optiondiv.textContent = currentOption;
+        optiondiv.classList.add("option");
         quizChoices.appendChild(optiondiv);
     }
 
