@@ -34,7 +34,7 @@ const quizQuestions = document.getElementById("questions");
 const quizChoices = document.getElementById("choices");
 const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
-const quiz_alert = document.getElementById("display-alert");
+const alert = document.querySelector(".alert");
 const startButton = document.getElementById("start-button");
 // Variable to keep array current
 let initialQuestion = 0;
@@ -43,12 +43,14 @@ let quizFinish = false;
 // Function to test correct and wrong answers
 function testAnswer() {
     const selectedOption = document.querySelector('.option.selected');
-    if (selectedOption.textContent === questions_Options[initialQuestion].correct_option) {
-        alert("Correct Answer");
+    if (selectedOption.textContent === questions_Options[initialQuestion].correct_option){
+        //alert("Correct Answer");
+        showAlert("Correct Answer");
         score++;
         
     } else {
-        alert("Wrong Answer");
+        //alert("Wrong Answer");
+        showAlert("Wrong Answer");
     }
        initialQuestion++;
        if (initialQuestion < questions_Options.length) {
@@ -65,7 +67,16 @@ function quizscore() {
     quizQuestions.textContent = "";
     quizChoices.textContent = "";
     quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
+    showAlert("Your quiz has Ended");
     nextButton.textContent = "Play Again";
+}
+// Function to show alerts
+function showAlert(message) {
+    alert.style.display = "block";
+    alert.textContent = message;
+    setTimeout(() => {
+        alert.style.display = "none";
+    }, 2000);
 }
   
 
@@ -74,7 +85,8 @@ displayQuestions();
 nextButton.addEventListener('click', function() {
     const selectedOption = document.querySelector('.option.selected');
     if (!selectedOption && nextButton.textContent === "Next") {
-        alert("Select your Answer")
+        //alert("Select your Answer")
+        showAlert("Select your Answer");
         return;
     }
     if (quizFinish) {
