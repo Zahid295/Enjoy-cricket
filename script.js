@@ -79,10 +79,18 @@ function showAlert(message) {
         alert.style.display = "none";
     }, 2000);
 }
+
+// Function to Click on play quiz button
+
+startButton.addEventListener('click', function () {
+    startButton.style.display = "none";
+    quizBox.style.display = "block";
+    displayQuestions();
+});
   
 
 // Add EventListner for next button
-displayQuestions();
+
 nextButton.addEventListener('click', function() {
     const selectedOption = document.querySelector('.option.selected');
     if (!selectedOption && nextButton.textContent === "Next") {
