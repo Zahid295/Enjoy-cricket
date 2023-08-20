@@ -44,13 +44,13 @@ let quizFinish = false;
 function testAnswer() {
     const selectedOption = document.querySelector('.option.selected');
     if (selectedOption.textContent === questions_Options[initialQuestion].correct_option){
-        //alert("Correct Answer");
+        
         showAlert("Correct Answer");
         score++;
         
     } else {
-        //alert("Wrong Answer");
-        showAlert("Wrong Answer");
+        
+        showAlert(`Wrong Answer! ${questions_Options[initialQuestion].correct_option} is Correct Answer`);
     }
        initialQuestion++;
        if (initialQuestion < questions_Options.length) {
@@ -85,7 +85,7 @@ displayQuestions();
 nextButton.addEventListener('click', function() {
     const selectedOption = document.querySelector('.option.selected');
     if (!selectedOption && nextButton.textContent === "Next") {
-        //alert("Select your Answer")
+        
         showAlert("Select your Answer");
         return;
     }
