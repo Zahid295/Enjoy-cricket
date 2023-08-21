@@ -4,13 +4,19 @@ body {
     background-color: rgba(255, 0, 0, 0.742);
     text-align: center;
 }
+.material-symbols-outlined {
+    Float: left;
+    color: blue;
+    margin-right: 15px;
+    font-size: 40px;
+}
 .heading-box {
     height: 100px;
     width: 750px;
 }
 .quiz-heading1 {
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     color: blue;
 }
 .quiz-heading2 {
