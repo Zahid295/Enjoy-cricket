@@ -135,7 +135,26 @@ function displayQuestions() {
     }
 
 }
+// For profile pop up
+ const profileDiv = document.getElementById("profile-model");
+const profileButton = document.getElementById("profile-button");
+var profileSpan = document.getElementsByClassName("close-popup")[0];
 
+// Function to display profile pop up
+    profileDiv.style.display = "none";
+profileButton.onclick = function () {
+    profileDiv.style.display = "block";
+}
+// Function to close profile pop up
+profileSpan.onclick = function () {
+    profileDiv.style.display = "none";
+}
+// Function to close profile pop up when click anywhere outside of model
+window.onclick = function (event) {
+    if (event.target == profileDiv) {
+        profileDiv.style.display = "none";
+    }
+}
 
 
 
