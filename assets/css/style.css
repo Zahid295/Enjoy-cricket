@@ -14,21 +14,28 @@ body {
     margin-top: 10px;
     margin-left: 5px;
 }
+header {
+    margin:0px;
+}
 
 .headings-box {
-    height: 80px;
+    height: 120px;
     width: 100%;
     display: block;
+    
+    position: relative;
+
 }
 
 .logo-heading {
     float: left;
     font-size: 20px;
     color: blue;
+    margin: 0px;
 }
 .nav-bar {
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-right: 5px;
     
 }
@@ -40,11 +47,21 @@ body {
     border-radius: 5px;
 }
 .quiz-heading2 {
+    
     text-align: center;
     font-size: 15px;
+    margin-top: 60px;
+    margin-left: 35%;
+    position: absolute;
+    display: block;
+    
+}
+h2 {
+    display: block;
+    text-align: center;
 }
 .alert-heading-box {
-    height: 100px;
+    height: 200px;
     width: auto;
     display: block;
 }
@@ -64,6 +81,11 @@ body {
 .show-data {
     height: 25px;
     width: auto;
+    color: blueviolet;
+    text-align: center;
+    
+    
+    
 }
 #main-box {
     
@@ -87,7 +109,7 @@ body {
     font-weight: 600;
     
 }
-.option{
+.option {
     background-color: white;
     font-size: 15px;
     margin: 10px auto 10px auto;
@@ -174,4 +196,3 @@ body {
 .profile-model-style {
     display: none;
 }
-

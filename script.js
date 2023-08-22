@@ -160,8 +160,8 @@ window.onclick = function (event) {
     
 submitProfile.onclick = function () {
     let userData = document.querySelector("#profile");
-    let showData = document.querySelector("#show-data");
-    showData.innerHTML = "User Name: " + userData.value;
+    let showData = document.querySelector(".show-data");
+    showData.innerHTML = "User " + userData.value;
     profileDiv.style.display = "none";
 
 
