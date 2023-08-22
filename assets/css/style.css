@@ -4,24 +4,49 @@ body {
     background-color: rgba(255, 0, 0, 0.742);
     text-align: center;
 }
+
+
 .material-symbols-outlined {
     Float: left;
     color: blue;
     margin-right: 15px;
     font-size: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
-.heading-box {
-    max-height: 60px;
-    width: 750px;
+
+.headings-box {
+    height: 80px;
+    width: 100%;
+    display: block;
 }
-.quiz-heading1 {
-    text-align: left;
-    font-size: 25px;
+
+.logo-heading {
+    float: left;
+    font-size: 20px;
     color: blue;
+}
+.nav-bar {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    
+}
+.nav-bar button {
+    color: white;
+    background-color: black;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
 }
 .quiz-heading2 {
     text-align: center;
     font-size: 15px;
+}
+.alert-heading-box {
+    height: 80px;
+    width: auto;
+    display: block;
 }
 .alert {
     text-align: center;
@@ -77,7 +102,9 @@ body {
     background-color: white;
     cursor: pointer;
     border-radius: 5px;
-    
+    text-align:center;
+    height: 20px;
+    width: 80px;
 }
 .option:hover {
     background-color: rgb(238, 199, 199)
