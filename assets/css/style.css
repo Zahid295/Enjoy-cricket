@@ -44,7 +44,7 @@ body {
     font-size: 15px;
 }
 .alert-heading-box {
-    height: 80px;
+    height: 100px;
     width: auto;
     display: block;
 }
@@ -60,6 +60,10 @@ body {
     display: none;
     
     
+}
+.show-data {
+    height: 25px;
+    width: auto;
 }
 #main-box {
     
@@ -161,10 +165,13 @@ body {
     width: 80%;
 }
 .close-popup {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
+.profile-model-style {
+    display: none;
+}
 

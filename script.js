@@ -136,12 +136,13 @@ function displayQuestions() {
 
 }
 // For profile pop up
- const profileDiv = document.getElementById("profile-model");
-const profileButton = document.getElementById("profile-button");
-var profileSpan = document.getElementsByClassName("close-popup")[0];
+ let profileDiv = document.getElementById("profile-model");
+let profileButton = document.getElementById("profile-button");
+let profileSpan = document.getElementsByClassName("close-popup")[0];
+let submitProfile = document.getElementById("profile-submit");
 
 // Function to display profile pop up
-    profileDiv.style.display = "none";
+    
 profileButton.onclick = function () {
     profileDiv.style.display = "block";
 }
@@ -155,6 +156,22 @@ window.onclick = function (event) {
         profileDiv.style.display = "none";
     }
 }
+ 
+    
+submitProfile.onclick = function () {
+    let userData = document.querySelector("#profile");
+    let showData = document.querySelector("#show-data");
+    showData.innerHTML = "User Name: " + userData.value;
+    profileDiv.style.display = "none";
+
+
+
+
+}  
+  
+
+
+
 
 
 
