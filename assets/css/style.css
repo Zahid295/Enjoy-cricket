@@ -43,7 +43,7 @@ header {
     color: white;
     background-color: black;
     border: none;
-    margin-right: 15px;
+    margin-right: 5px;
     border-radius: 5px;
 }
 .quiz-heading2 {
@@ -87,6 +87,13 @@ h2 {
     
     
 }
+.profile-avatar  {
+     vertical-align: middle;
+     width: 60px;
+     height: 60px;
+     margin-left: 20px;
+     
+ }
 #main-box {
     
     background-color: yellow;
