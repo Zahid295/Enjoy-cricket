@@ -3,6 +3,7 @@ body {
     color: black;
     background-color: rgba(255, 0, 0, 0.742);
     text-align: center;
+    box-sizing: border-box;
 }
 
 
@@ -19,7 +20,7 @@ header {
 }
 
 .headings-box {
-    height: 80px;
+    height: 60px;
     width: 100%;
     display: block;
     
@@ -47,22 +48,18 @@ header {
     border-radius: 5px;
 }
 .quiz-heading2 {
-    
+    box-sizing: border-box;
     text-align: center;
     font-size: 15px;
     
-    margin-bottom: 60px;
-    margin-left: 35%;
-    position: absolute;
+    
+    
     display: block;
     
 }
-h2 {
-    display: block;
-    text-align: center;
-}
+
 .alert-heading-box {
-    height: 200px;
+    height: 80px;
     width: auto;
     display: block;
 }
@@ -80,13 +77,12 @@ h2 {
     
 }
 .show-data {
-    height: 25px;
+    height: 20px;
     width: auto;
     color: blueviolet;
     text-align: center;
-    
-    
-    
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 .profile-avatar  {
      vertical-align: middle;
@@ -128,7 +124,7 @@ h2 {
     width: 50%;
 
 }
-.button {
+.start {
     font-size: 15px;
     font-weight: 400;
     padding: 5px;
@@ -138,7 +134,7 @@ h2 {
     border-radius: 5px;
     text-align:center;
     height: 20px;
-    width: 80px;
+    width: 120px;
 }
 .option:hover {
     background-color: rgb(238, 199, 199)
@@ -158,8 +154,9 @@ h2 {
     
 }
 .social-icons {
-    max-height: 90px;
-    position:sticky;
+    max-height: 50px;
+    margin-top: 240px;
+    
     
     
     
@@ -189,10 +186,12 @@ h2 {
 }
 .profile-text {
     background-color: #fefefe;
+    box-sizing: border-box;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
+    border-radius: 5px;
 }
 .close-popup {
   color: #aaaaaa;
@@ -202,5 +201,10 @@ h2 {
 }
 
 .profile-model-style {
+    
     display: none;
+
+}
+.close-popup {
+    margin-bottom: 15px;
 }
