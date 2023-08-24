@@ -32,8 +32,10 @@ header {
 .logo-heading {
     float: left;
     font-size: 20px;
-    color: blue;
+    background-color: blue;
+    color: white;
     margin: 0px;
+    border-radius: 5px;
 }
 .nav-bar {
     float: right;
@@ -264,6 +266,7 @@ header {
     height: 450px;
     width: auto;
     filter: contrast(1.7);
+    
 
 }
 .review-form {
