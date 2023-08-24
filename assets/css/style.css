@@ -10,6 +10,7 @@ body {
 .material-symbols-outlined {
     Float: left;
     color: blue;
+    filter: contrast(1.7);
     margin-right: 15px;
     font-size: 40px;
     margin-top: 10px;
@@ -43,6 +44,7 @@ header {
 .nav-bar button {
     color: white;
     background-color: black;
+    filter: contrast(1.7);
     border: none;
     margin-right: 5px;
     border-radius: 5px;
