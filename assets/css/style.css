@@ -208,9 +208,22 @@ header {
 .close-popup {
     margin-bottom: 15px;
 }
+.rate-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300;
+    color: gold;
+    height: 170px;
+    width: auto;
+    filter: contrast(1.7);
+    
+}
+.rate-form .rateInput {
+    color: gold;
+}
 .rate-para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
+    color: gold;
     height: 50px;
     width: auto;
 }
@@ -232,4 +245,7 @@ header {
     width: 100%;
     position: relative;
 
+}
+.enter-button {
+    margin-top: 15px;
 }
