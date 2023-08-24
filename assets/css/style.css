@@ -251,3 +251,18 @@ header {
 .enter-button {
     margin-top: 15px;
 }
+.average {
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+}
+.review-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300;
+    color: gold;
+    height: 450px;
+    width: auto;
+    filter: contrast(1.7);
+
+}
