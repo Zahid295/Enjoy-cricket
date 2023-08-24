@@ -46,18 +46,20 @@ header {
 .nav-bar button {
     color: white;
     background-color: black;
-    filter: contrast(1.7);
+    filter: contrast(1.8);
     border: none;
     margin-right: 5px;
     border-radius: 5px;
 }
+
 .nav-bar .play-game {
     color: white;
     background-color: black;
-    filter: contrast(1.7);
+    
     border: none;
     margin-right: 5px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .quiz-heading2 {
     box-sizing: border-box;
