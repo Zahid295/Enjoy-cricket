@@ -107,6 +107,9 @@ nextButton.addEventListener('click', function() {
         quizScore.textContent = "";
         initialQuestion = 0;
         displayQuestions();
+        profileAvatar.style.visibility = "hidden";
+        showData.innerHTML = "";
+
         quizFinish = false;
         score = 0;
     }
@@ -140,10 +143,14 @@ function displayQuestions() {
 
 }
 // For profile pop up
- let profileDiv = document.getElementById("profile-model");
+let profileDiv = document.getElementById("profile-model");
 let profileButton = document.getElementById("profile-button");
 let profileSpan = document.getElementsByClassName("close-popup")[0];
 let submitProfile = document.getElementById("profile-submit");
+let profileAvatar = document.querySelector(".profile-avatar");
+let userData = document.querySelector("#profile");
+let showData = document.querySelector(".show-data");
+
 
 
 // Function to display profile pop up
@@ -164,10 +171,9 @@ window.onclick = function (event) {
  
     
 submitProfile.onclick = function () {
-    let userData = document.querySelector("#profile");
-    let showData = document.querySelector(".show-data");
     showData.innerHTML = userData.value;
     profileDiv.style.display = "none";
+    profileAvatar.style.visibility = "visible";
 
 
 

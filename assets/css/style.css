@@ -124,6 +124,7 @@ header {
      width: 60px;
      height: 60px;
      margin-left: 90px;
+     visibility: hidden;
      
  }
 #main-box {
@@ -191,6 +192,7 @@ header {
 .social-icons {
     max-height: 50px;
     margin-top: 300px;
+    position: relative;
     
     
     
@@ -315,4 +317,8 @@ footer {
 .review-content {
     height: 100px;
     width: auto;
+}
+.empty-box {
+    height: 300px;
+    width: 100%;
 }
