@@ -36,6 +36,8 @@ const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
 const alert = document.querySelector(".alert");
 const startButton = document.querySelector(".start");
+const socialMedia = document.querySelector("#social-contact");
+
 
 // Variable to keep array current
 let initialQuestion = 0;
@@ -70,6 +72,7 @@ function quizscore() {
     quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
     showAlert("Your quiz has Ended");
     nextButton.textContent = "Play Again";
+    
 }
 // Function to show alerts
 function showAlert(message) {
@@ -85,6 +88,7 @@ function showAlert(message) {
 startButton.addEventListener('click', function () {
     startButton.style.display = "none";
     quizBox.style.display = "block";
+    socialMedia.style.display = "none";
     displayQuestions();
 });
   
@@ -141,6 +145,7 @@ let profileButton = document.getElementById("profile-button");
 let profileSpan = document.getElementsByClassName("close-popup")[0];
 let submitProfile = document.getElementById("profile-submit");
 
+
 // Function to display profile pop up
     
 profileButton.onclick = function () {
@@ -168,7 +173,8 @@ submitProfile.onclick = function () {
 
 
 }
-  
+
+
   
 
 
