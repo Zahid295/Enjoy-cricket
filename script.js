@@ -73,10 +73,10 @@ function quizscore() {
 }
 // Function to show alerts
 function showAlert(message) {
-    alert.style.display = "block";
+    alert.style.visibility = "visible";
     alert.textContent = message;
     setTimeout(() => {
-        alert.style.display = "none";
+        alert.style.visibility = "hidden";
     }, 2000);
 }
 

@@ -84,13 +84,14 @@ header {
     text-align: center;
     font-size: 15px;
     height: 20px;
+    margin-top: 40px;
     
     
     display: block;
     
 }
 
-.alert-heading-box-1 {
+.alert-heading-box {
     height: 80px;
     width: auto;
     display: block;
@@ -98,15 +99,15 @@ header {
 }
 .alert {
     text-align: center;
-    font-size: 10;
+    font-size: 15px;
     background-color: blueviolet;
     width: 60%;
-    padding: 5px;
+    padding: 7px;
     border-radius: 5px;
     margin-left: 240px;
-    margin-top: 40px;
-    height: 40px;
-    display: none;
+    margin-top: 30px;
+    height: 20px;
+    visibility: hidden;
     
     
 }
@@ -131,11 +132,11 @@ header {
     box-sizing: border-box;
     width: 80%;
     height: 55vh;
-    max-height: 450px;
+    max-height: 310px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 1%;
     border-radius: 5px;
     display: none;
@@ -189,12 +190,19 @@ header {
 }
 .social-icons {
     max-height: 50px;
-    margin-top: 10px;
+    margin-top: 300px;
     
     
     
     
 }
+/*
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+*/
 .social-container {
     display: flex;
     width: 100%;
@@ -202,6 +210,7 @@ header {
     justify-content: center;
     justify-content:baseline;
     border-radius: 5px;
+    
     
 
 }
