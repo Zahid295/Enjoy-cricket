@@ -257,10 +257,15 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: gold;
-    height: 140px;
+    height: 120px;
     width: auto;
     filter: contrast(1.7);
     
+}
+.rate-heading {
+    height: 30px;
+    margin: 0;
+    font-size: 300;
 }
 .rate-form .rateInput {
     color: gold;
@@ -296,7 +301,9 @@ footer {
 
 }
 .enter-button {
-    margin-top: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
 }
 .average {
     text-align: center;
@@ -325,4 +332,46 @@ footer {
 .empty-box {
     height: 270px;
     width: 100%;
+}
+/*
+.instructions {
+    height: 220px;
+    width: 50%;
+    
+}
+.instr-para {
+    height: 180px;
+    width: auto
+    
+}
+.instr-list {
+    height: 150px;
+    width: auto;
+    te
+
+    
+}
+*/
+.instructions {
+    height: 240;
+    width: auto;
+}
+div.instructions {
+
+    height: 240px;
+    width: auto;
+    text-align: center;
+}
+ul.instr-list {
+    display: inline-block;
+    text-align: left;
+}
+ul.instr-list li {
+    margin-top: 5px;
+}
+.instr-heading {
+    
+    height: 22px;
+    width: auto;
+    color:#fefefe;
 }
