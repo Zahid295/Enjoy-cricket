@@ -353,25 +353,32 @@ footer {
 }
 */
 .instructions {
-    height: 240;
+    height: 350px;
     width: auto;
+   
 }
 div.instructions {
-
+    display: block;
     height: 240px;
     width: auto;
     text-align: center;
+    
 }
 ul.instr-list {
+    color:#fefefe;
     display: inline-block;
     text-align: left;
+    margin-bottom: 150px;
 }
 ul.instr-list li {
     margin-top: 5px;
+    list-style-type: disc;
 }
 .instr-heading {
     
     height: 22px;
     width: auto;
-    color:#fefefe;
+    color: blue;
+    text-align: center;
+    
 }
