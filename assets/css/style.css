@@ -328,12 +328,39 @@ footer {
     height: 350px;
     width: auto;
     filter: contrast(1.7);
+    margin: 0;
     
 
 }
-.review-form {
-    height: 350px;
+.review-box {
+    height: 320px;
     width: auto;
+    margin: 0;
+}
+.review-form {
+    height: 300px;
+    width: auto;
+    margin: 0;
+}
+.subject-para {
+    height: 21px;
+    width: auto;
+    margin: 5px 0px 10px 0px;
+}
+.desc-para {
+    height: 21px;
+    width: auto;
+    margin: 5px 0px 10px 0px;
+}
+.review-heading {
+    height: 20px;
+    width: auto;
+    margin: 10px 0px 5px 10px;
+}
+.submit-description {
+    height: 25px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
 }
 #review-content {
     height: 85px;
