@@ -265,7 +265,7 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: blue;
-    height: 120px;
+    height: 100px;
     width: auto;
     filter: contrast(1.7);
     
@@ -284,10 +284,10 @@ footer {
     color: blue;
     height: 25px;
     width: auto;
-    margin: 20px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
 }
 .rate-box {
-    height: 130px;
+    height: 100px;
     width: auto;
 }
 .satisified {
