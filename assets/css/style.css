@@ -280,12 +280,12 @@ footer {
 }
 .rate-para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 300;
     color: blue;
     height: 25px;
     width: auto;
     margin: 5px 0px 0px 0px;
 }
+
 .rate-box {
     height: 100px;
     width: auto;
@@ -295,18 +295,21 @@ footer {
     width: 100%;
     position: relative;
     margin-right: 100px;
+    font-size: 12px;
 }
 .average {
     text-align: center;
     width: 100%;
     position: relative;
     margin-right: 100px;
+    font-size: 12px;
 
 }
 .dissatisified {
     text-align: center;
     width: 100%;
     position: relative;
+    font-size: 12px;
 
 }
 .enter-button {
@@ -315,12 +318,7 @@ footer {
     border: none;
     color: blue;
 }
-.average {
-    text-align: center;
-    width: 100%;
-    position: relative;
 
-}
 .review-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
