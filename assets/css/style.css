@@ -313,7 +313,7 @@ footer {
 
 }
 .enter-button {
-    margin-top: 5px;
+    margin: 10px 0px 5px 0px;
     border-radius: 5px;
     border: none;
     color: blue;
@@ -323,20 +323,20 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: blue;
-    height: 350px;
+    height: 280px;
     width: auto;
     filter: contrast(1.7);
-    margin: 0;
+    margin: 30px 0px 0px 0px;
     
 
 }
 .review-box {
-    height: 320px;
+    height: 280px;
     width: auto;
     margin: 0;
 }
 .review-form {
-    height: 300px;
+    height: 250px;
     width: auto;
     margin: 0;
 }
@@ -344,11 +344,13 @@ footer {
     height: 21px;
     width: auto;
     margin: 5px 0px 10px 0px;
+    font-size: 15px;
 }
 .desc-para {
     height: 21px;
     width: auto;
     margin: 5px 0px 10px 0px;
+    font-size: 15px;
 }
 .review-heading {
     height: 20px;
@@ -361,12 +363,12 @@ footer {
     margin: 10px 0px 0px 0px;
 }
 #review-content {
-    height: 85px;
+    height: 60px;
     width: auto;
     border-radius: 5px;
 }
 #review-exp {
-    height: 85px;
+    height: 60px;
     width: auto;
     border-radius: 5px;
 }
@@ -380,7 +382,7 @@ footer {
 }
 
 .empty-box {
-    height: 170px;
+    height: 290px;
     width: 100%;
 }
 
