@@ -323,7 +323,7 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: blue;
-    height: 280px;
+    height: 290px;
     width: auto;
     filter: contrast(1.7);
     margin: 30px 0px 0px 0px;
@@ -355,7 +355,7 @@ footer {
 .review-heading {
     height: 20px;
     width: auto;
-    margin: 10px 0px 5px 10px;
+    margin: 20px 0px 20px 0px;
 }
 .submit-description {
     height: 25px;
