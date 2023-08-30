@@ -79,6 +79,11 @@ header {
     border-radius: 5px;
     text-decoration: none;
 }
+
+.control-button {
+    font-size: 14px;
+}
+
 .quiz-heading2 {
     box-sizing: border-box;
     text-align: center;
