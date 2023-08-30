@@ -36,7 +36,7 @@ const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
 const alert = document.querySelector(".alert");
 const startButton = document.querySelector(".start");
-const socialMedia = document.querySelector("#social-contact");
+const emptyBox = document.querySelector(".empty-box");
 
 
 // Variable to keep array current
@@ -88,7 +88,7 @@ function showAlert(message) {
 startButton.addEventListener('click', function () {
     startButton.style.display = "none";
     quizBox.style.display = "block";
-    socialMedia.style.display = "none";
+    emptyBox.style.display = "none";
     displayQuestions();
 });
   
