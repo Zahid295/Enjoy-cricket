@@ -405,8 +405,8 @@ footer {
     
 }
 */
-.instructions {
-    height: 350px;
+#instructions {
+    height: 400px;
     width: auto;
    
 }
