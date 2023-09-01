@@ -237,6 +237,9 @@ footer {
     width: auto;
     margin-top: 100px;
 }
+#profile-submit {
+    margin: 10px 0px 0px 10px;
+}
 
 .profile-text {
     
@@ -441,9 +444,110 @@ ul.instr-list li {
     .start {
         width: 20%;
     }
+    #profile-model {
+        height: 120px;
+        width: auto;
+        margin-top: 100px;
+    }
+    
+    .profile-text {
+    
+        background-color: #fefefe;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 40%;
+        border-radius: 5px;
+    }
+    
+    .close-popup {
+        margin-bottom: 15px;
+    }
+    #profile-submit {
+             margin: 10px 0px 0px 10px;
+    }
 }
 
 @media screen and (max-width: 950px) {
+    .start {
+        width: 20%;
+    }
+    #profile-model {
+        height: 100px;
+        width: 40%;
+        margin-top: 100px;
+        margin-left: 250px;
+        
+    }
+    .profile-text {
+    
+        background-color: #fefefe;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: auto;
+        border-radius: 5px;
+    }
+    .close-popup {
+        margin-bottom: 15px;
+    }
+    #profile-submit {
+        margin: 10px 0px 0px 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .start {
+        width: 30%;
+    }
+    #profile-model {
+        height: 100px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .profile-text {
+    
+        background-color: #fefefe;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 40%;
+        border-radius: 5px;
+    }
+    .close-popup {
+        margin-bottom: 15px;
+    }
+    #profile-submit {
+            margin: 10px 0px 0px 10px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .start {
+        width: 20%;
+    }
+    #profile-model {
+        height: 85px;
+        width: 60%;
+        margin-top: 100px;
+    }
+    .profile-text {
+    
+        background-color: #fefefe;
+        box-sizing: border-box;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+        border-radius: 5px;
+    }
+    #profile-submit {
+        margin: 10px 0px 0px 10px;
+    }
+}
+@media screen and (max-width: 200px) {
+
     .start {
         width: 20%;
     }
