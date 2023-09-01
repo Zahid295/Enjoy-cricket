@@ -176,7 +176,7 @@ header {
     border-radius: 5px;
     text-align:center;
     height: 20px;
-    width: 120px;
+    width: 20%;
 }
 .option:hover {
     background-color: rgb(238, 199, 199)
@@ -191,10 +191,7 @@ header {
     font-size: 20px;
     margin-top: 20px;
 }
-.start {
-    width: 10%;
-    
-}
+
 .social-icons {
     max-height: 50px;
     margin: 0px 0px 5px 0px;
@@ -440,9 +437,15 @@ ul.instr-list li {
     text-align: center;
     
 }
-
-/* Media query for iPads, Tablets */
-
-@media (min-width: 481px) and (max-width: 991px) {
-    
+@media screen and (max-width: 1200px) {
+    .start {
+        width: 20%;
+    }
 }
+
+@media screen and (max-width: 950px) {
+    .start {
+        width: 20%;
+    }
+}
+
