@@ -228,39 +228,55 @@ footer {
     width: 80px;
     height: 20px;
     background-color: rgb(204, 189, 189);
-    margin: 0;
+    margin-top: 60px;
     
     
 }
 #profile-model {
-    height: 85px;
-    width: auto;
-    margin-top: 100px;
+    display: flex;
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 5px;
+
+    
+    background-color: rgb(204, 189, 189);
+    align-items: center;
+    
 }
+
+/*
 #profile-submit {
     margin: 10px 0px 0px 10px;
 }
+*/
 
-.profile-text {
+#profile-model div {
     
-    background-color: #fefefe;
-    box-sizing: border-box;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 40%;
-    border-radius: 5px;
+    display: inline;
+    font-size: 15px;
+    margin-left: 20px;
 }
+
+
+#empty {
+    height: 100px;
+    width:auto;
+}
+/*
 .close-popup {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
+*/
 
 .profile-model-style {
     
-    display: none;
+    visibility: hidden;
+   
 
 }
 .close-popup {
@@ -444,11 +460,13 @@ ul.instr-list li {
     .start {
         width: 20%;
     }
+    /*
     #profile-model {
         height: 120px;
         width: auto;
         margin-top: 100px;
     }
+
     
     .profile-text {
     
@@ -457,25 +475,29 @@ ul.instr-list li {
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 40%;
+        width: 50%;
+        height: 110px;
         border-radius: 5px;
     }
     
     .close-popup {
         margin-bottom: 15px;
+        margin-left: 15px;
     }
     #profile-submit {
-             margin: 10px 0px 0px 10px;
+             margin: 10px 0px 0px 30px;
     }
+    */
 }
 
 @media screen and (max-width: 950px) {
     .start {
         width: 20%;
     }
+    /*
     #profile-model {
         height: 100px;
-        width: 40%;
+        width: 50%;
         margin-top: 100px;
         margin-left: 250px;
         
@@ -487,7 +509,8 @@ ul.instr-list li {
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
-        width: auto;
+        width: 200%;
+        height: 150px;
         border-radius: 5px;
     }
     .close-popup {
@@ -496,11 +519,13 @@ ul.instr-list li {
     #profile-submit {
         margin: 10px 0px 0px 30px;
     }
+    */
 }
 @media screen and (max-width: 600px) {
     .start {
         width: 30%;
     }
+    /*
     #profile-model {
         height: 100px;
         width: 100%;
@@ -513,20 +538,22 @@ ul.instr-list li {
         margin: auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 40%;
+        width: 150%;
         border-radius: 5px;
     }
     .close-popup {
         margin-bottom: 15px;
     }
     #profile-submit {
-            margin: 10px 0px 0px 10px;
+            margin: 15px 0px 0px 20px;
     }
+    */
 }
 @media screen and (max-width: 300px) {
     .start {
         width: 20%;
     }
+    /*
     #profile-model {
         height: 85px;
         width: 60%;
@@ -545,6 +572,7 @@ ul.instr-list li {
     #profile-submit {
         margin: 10px 0px 0px 10px;
     }
+    */
 }
 @media screen and (max-width: 200px) {
 
