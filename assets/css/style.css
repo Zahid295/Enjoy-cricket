@@ -154,31 +154,31 @@ body {
     box-sizing: border-box;
     width: 80%;
     height: 55vh;
-    max-height: 310px;
+    max-height: 280px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 1%;
     border-radius: 5px;
     display: none;
 }
 .quiz {
     font-size: 15px;
-    margin: 15px;
+    margin: 10px;
     color: black;
     font-weight: 600;
     
 }
 .option {
     background-color: white;
-    font-size: 15px;
+    font-size: 12px;
     margin: 10px auto 10px auto;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
-    width: 50%;
+    width: 40%;
 
 }
 .start {
@@ -439,11 +439,11 @@ footer {
 }
 
 .empty-box {
-    height: 110px;
+    height: 210px;
     width: 100%;
 }
 #empty {
-    height: 100px;
+    height: 0px;
     width:auto;
 }
 /*
