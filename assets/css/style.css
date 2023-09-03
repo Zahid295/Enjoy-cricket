@@ -641,8 +641,8 @@ ul.instr-list li {
         background-color: yellow;
         box-sizing: border-box;
         width: 80%;
-        height: 90vh;
-        max-height: 400px;
+        height: 60vh;
+        max-height: 300px;
         max-width: 830px;
         margin-left: auto;
         margin-right: auto;
