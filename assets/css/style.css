@@ -631,6 +631,7 @@ ul.instr-list li {
     .nav-bar {
         text-align: center;
         float: none;
+        margin-top: 20px;
     }
     #empty {
         max-height: 5px;
