@@ -212,7 +212,10 @@ body {
     margin: 0px 0px 5px 0px;
 }
 .button-btn {
-
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font: 15px;
+     padding: 0;
+     margin-top: 10px;
 }
 /*
 footer {
