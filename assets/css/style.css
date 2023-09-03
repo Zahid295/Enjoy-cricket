@@ -19,6 +19,9 @@ body {
     margin: 0;
 }
 */
+body {
+    text-align: center;
+}
 
 
 .material-symbols-outlined {
@@ -207,6 +210,9 @@ body {
 .social-icons {
     max-height: 50px;
     margin: 0px 0px 5px 0px;
+}
+.button-btn {
+
 }
 /*
 footer {
@@ -643,12 +649,14 @@ ul.instr-list li {
         display: none;
         position: relative;
     }
+    /*
     #next-button {
         text-align: center;
         margin: 0;
         
         
     }
+    */
     /*
     .headings-box {
         height: 120px;
