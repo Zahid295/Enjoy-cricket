@@ -783,6 +783,12 @@ ul.instr-list li {
     .start {
         width: 20%;
     }
+    .nav-bar {
+        text-align: center;
+        float: none;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
     #profile-model {
         display: flex;
         width: 85%;
