@@ -239,7 +239,7 @@ footer {
     width: 80px;
     height: 20px;
     background-color: rgb(204, 189, 189);
-    margin-top: 60px;
+    margin-top: 5px;
 }
 .follow-us {
     text-align: center;
@@ -439,7 +439,7 @@ footer {
 }
 
 .empty-box {
-    height: 290px;
+    height: 110px;
     width: 100%;
 }
 #empty {
