@@ -623,6 +623,32 @@ ul.instr-list li {
         text-align: center;
         float: none;
     }
+    #empty {
+        max-height: 5px;
+        width: auto;
+    }
+    #main-box {
+    
+        background-color: yellow;
+        box-sizing: border-box;
+        width: 80%;
+        height: 90vh;
+        max-height: 400px;
+        max-width: 830px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        padding: 1%;
+        border-radius: 5px;
+        display: none;
+        position: relative;
+    }
+    #next-button {
+        text-align: center;
+        margin: 0;
+        
+        
+    }
     /*
     .headings-box {
         height: 120px;
