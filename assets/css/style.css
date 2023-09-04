@@ -721,7 +721,8 @@ ul.instr-list li {
 @media screen and (max-width: 500px) {
     .start {
         width: 40%;
-        display: block;
+        display: inline-block;
+        margin: 0;
     }
     .nav-bar {
         height: 25px;
@@ -743,8 +744,8 @@ ul.instr-list li {
         box-sizing: border-box;
         text-align: center;
         font-size: 17px;
-        height: 40px;
-        margin-top: 10px;
+        height: 30px;
+        margin: 0;
         display: block;
     }
     .headings-box {
