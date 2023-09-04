@@ -733,10 +733,10 @@ ul.instr-list li {
     .profile-avatar {
         vertical-align: middle;
         width: 60px;
+        margin: 0;
         height: 60px;
-        margin-left: 90px;
         visibility: hidden;
-        display: block;
+        display: inline-block;
     
     }
     .quiz-heading2 {
@@ -748,7 +748,7 @@ ul.instr-list li {
         display: block;
     }
     .headings-box {
-        height: 120px;
+        height: 150px;
         width: auto;
         display: block;
         
