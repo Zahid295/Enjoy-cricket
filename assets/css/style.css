@@ -323,7 +323,7 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 300;
     color: blue;
-    height: 100px;
+    height: 130px;
     width: auto;
     filter: contrast(1.7);
     
@@ -341,9 +341,9 @@ footer {
     color: blue;
     height: 25px;
     width: auto;
-    margin: 5px 0px 0px 0px;
+    margin:0;
+    text-align: center;
 }
-
 .rate-box {
     height: 100px;
     width: auto;
@@ -593,6 +593,16 @@ ul.instr-list li {
        width: 5%;
        height: 40px;
    }
+
+   /* For Rate paragraph */
+
+   .rate-para {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       color: blue;
+       height: 25px;
+       width: auto;
+       margin: 5px 0px 0px 0px;
+   }
    /*
     .close-popup {
         margin-bottom: 15px;
@@ -653,6 +663,41 @@ ul.instr-list li {
         display: none;
         position: relative;
     }
+    /* For Rate Paragraph */
+
+    .rate-para {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blue;
+        height: 40px;
+        width: auto;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .satisified {
+        text-align: left;
+        width: 100%;
+        position: relative;
+        margin-right: 50px;
+        font-size: 12px;
+    }
+    
+    .average {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        margin-right: 50px;
+        font-size: 12px;
+    
+    }
+    
+    .dissatisified {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        font-size: 12px;
+    
+    }
+    
     /*
     #next-button {
         text-align: center;
