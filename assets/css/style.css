@@ -855,6 +855,39 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
+    /* Media Query for Review Section */
+    .rate-para {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: blue;
+        height: 40px;
+        width: auto;
+        margin: 5px 0px 0px 0px;
+    }
+    
+    .satisified {
+        text-align: left;
+        width: 100%;
+        position: relative;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    
+    .average {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        margin-right: 20px;
+        font-size: 12px;
+    
+    }
+    
+    .dissatisified {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        font-size: 12px;
+    
+    }
         
 }
 @media screen and (max-width: 600px) {
