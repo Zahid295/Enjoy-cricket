@@ -5,21 +5,12 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Quattrocento Sans', sans-serif;
     color: black;
     background-color: rgba(255, 0, 0, 0.742);
 }
 
-/*
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
-    background-color: rgba(255, 0, 0, 0.742);
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-*/
+
 body {
     text-align: center;
 }
@@ -47,6 +38,7 @@ body {
 
 .logo-heading {
     float: left;
+    font-family: 'Playfair Display', serif;
     font-size: 20px;
     background-color: blue;
     color: white;
@@ -55,6 +47,7 @@ body {
 }
 
 .nav-bar {
+    font-family: 'Playfair Display', serif;
     float: right;
     margin-top: 5px;
     margin-right: 5px;
@@ -105,9 +98,10 @@ body {
 }
 
 .quiz-heading2 {
+    font-family: 'Playfair Display', serif;
     box-sizing: border-box;
     text-align: center;
-    font-size: 17px;
+    font-size: 15px;
     height: 20px;
     margin-top: 50px;
     display: block;
@@ -512,6 +506,7 @@ footer {
 }
 */
 #instructions {
+    font-family: 'Quattrocento Sans', sans-serif;
     height: 400px;
     width: auto;
 }
@@ -537,7 +532,7 @@ ul.instr-list li {
 }
 
 .instr-heading {
-
+    font-family: 'Playfair Display', serif;
     height: 22px;
     width: auto;
     color: blue;
