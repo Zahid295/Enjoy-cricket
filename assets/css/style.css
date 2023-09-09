@@ -671,7 +671,12 @@ ul.instr-list li {
         height: 290px;
         width: auto;
         filter: contrast(1.7);
-        margin: 30px 0px 0px 0px;
+        margin: 30px 0px 230px 0px;
+    }
+    .empty-box {
+        height: 210px;
+        width: 100%;
+        margin-top: 240px;
     }
 
 }
