@@ -677,6 +677,14 @@ ul.instr-list li {
 
     header.headings-box {
         position: relative;
+        height: 160px;
+        width: auto;
+    }
+    .profile-avatar {
+        height: 60px;
+        width: auto;
+        margin: 0;
+        margin-top: 10px;
     }
 
     header.headings-box:after {
@@ -971,10 +979,6 @@ ul.instr-list li {
 }
 
 @media screen and (max-width: 600px) {
-    .headings-box {
-        height: 80px;
-
-    }
 
     #instructions {
         height: 400px;
