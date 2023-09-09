@@ -686,7 +686,9 @@ ul.instr-list li {
         margin: 0;
         margin-top: 10px;
     }
-
+    .show-data {
+        margin: 5px 0px 0px 0px;
+    }
     header.headings-box:after {
 
         display: inline-block;
