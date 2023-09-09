@@ -44,6 +44,7 @@ body {
     color: white;
     margin: 0px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .nav-bar {
@@ -94,6 +95,7 @@ body {
 }
 
 .control-button {
+    font-family: 'Playfair Display', serif;
     font-size: 14px;
 }
 
@@ -130,7 +132,7 @@ body {
 }
 
 .show-data {
-    height: 20px;
+    height: 25px;
     width: auto;
     color: blueviolet;
     text-align: center;
@@ -143,7 +145,7 @@ body {
     vertical-align: middle;
     width: 60px;
     height: 60px;
-    margin-left: 90px;
+    margin-left: 110px;
     visibility: hidden;
 
 }
@@ -258,7 +260,7 @@ footer {
 
 #profile-model {
     display: flex;
-    width: 50%;
+    width: 40%;
     height: 80px;
     margin: auto;
     justify-content: center;
@@ -266,6 +268,7 @@ footer {
     background-color: rgb(204, 189, 189);
     align-items: center;
     flex-wrap: nowrap;
+    
 }
 
 /*
@@ -298,6 +301,8 @@ footer {
     width: 15%;
     height: 40px;
     flex-grow: 1;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 #profile-model .submit-div {
@@ -307,6 +312,8 @@ footer {
     width: 10%;
     height: 40px;
     flex-grow: 0;
+    cursor: pointer;
+    border: 5px;
 }
 
 #profile-model .cross-div {
