@@ -420,10 +420,7 @@ footer {
     width: auto;
     filter: contrast(1.7);
     margin: 30px 0px 0px 0px;
-
-
 }
-
 .review-box {
     height: 280px;
     width: auto;
@@ -667,6 +664,15 @@ ul.instr-list li {
         margin: 10px 0px 0px 30px;
     }
     */
+    .review-section {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 300;
+        color: blue;
+        height: 290px;
+        width: auto;
+        filter: contrast(1.7);
+        margin: 30px 0px 0px 0px;
+    }
 
 }
 
