@@ -995,7 +995,7 @@ ul.instr-list li {
         width: 50%;
         display: inline-block;
         margin: 0;
-        height: 25px;
+        height: 30px;
         margin-top: 10px;
     }
 
@@ -1134,6 +1134,11 @@ ul.instr-list li {
         height: 280px;
         width: auto;
         margin: 0;
+    }
+    .alert {
+        height: 25px;
+        margin: 0;
+        width: 100%;
     }
 
 }
