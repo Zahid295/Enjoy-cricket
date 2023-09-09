@@ -678,6 +678,12 @@ ul.instr-list li {
         width: 100%;
         margin-top: 240px;
     }
+    #instructions {
+        height: 400px;
+        width: auto;
+        margin-bottom: 260px;
+    
+    }
 
 }
 
