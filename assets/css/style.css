@@ -483,6 +483,7 @@ footer {
 .empty-box {
     height: 210px;
     width: 100%;
+    margin-bottom: 250px;
 }
 
 #empty {
@@ -513,6 +514,7 @@ footer {
     font-family: 'Quattrocento Sans', sans-serif;
     height: 400px;
     width: auto;
+    margin-bottom: 250px;
 }
 
 div.instructions {
