@@ -687,7 +687,7 @@ ul.instr-list li {
         margin-top: 10px;
     }
     .show-data {
-        margin: 5px 0px 0px 0px;
+        margin: 5px 0px px 0px;
     }
     .quiz-heading2 {
         margin: 10px 0px 10px 0px;  
@@ -874,11 +874,14 @@ ul.instr-list li {
     .profile-avatar {
         vertical-align: middle;
         width: 60px;
-        margin: 0;
+        margin: 10 0px 0px 0px;
         height: 60px;
         visibility: hidden;
         display: inline-block;
 
+    }
+    .show-data {
+        margin: 5px 0px 0px 0px;
     }
 
     .quiz-heading2 {
@@ -987,17 +990,6 @@ ul.instr-list li {
 
 }
 
-@media screen and (max-width: 600px) {
-
-    #instructions {
-        height: 400px;
-        width: auto;
-        margin: 0;
-
-    }
-
-}
-
 @media screen and (max-width: 300px) {
     .start {
         width: 50%;
@@ -1043,10 +1035,8 @@ ul.instr-list li {
     .nav-bar {
         text-align: center;
         float: none;
-
         margin-right: 60px;
-
-        height: 45px;
+        height: 20px;
         font-weight: 150;
         padding: 0;
         width: 100%;
