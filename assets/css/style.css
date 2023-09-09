@@ -689,6 +689,9 @@ ul.instr-list li {
     .show-data {
         margin: 5px 0px 0px 0px;
     }
+    .quiz-heading2 {
+        margin: 10px 0px 10px 0px;  
+    }
     header.headings-box:after {
 
         display: inline-block;
