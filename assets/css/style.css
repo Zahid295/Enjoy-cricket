@@ -849,6 +849,10 @@ ul.instr-list li {
         margin-top: 40px;
 
     }
+    .empty-box {
+        height: 230px;
+        width: 100%;
+    }
 
 }
 
