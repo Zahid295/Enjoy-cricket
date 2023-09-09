@@ -851,7 +851,7 @@ ul.instr-list li {
         width: auto;
         display: block;
 
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
     .profile-avatar {
@@ -1031,7 +1031,7 @@ ul.instr-list li {
         text-align: center;
         float: none;
 
-        margin-right: 40px;
+        margin-right: 60px;
 
         height: 45px;
         font-weight: 150;
