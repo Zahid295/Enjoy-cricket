@@ -995,7 +995,7 @@ ul.instr-list li {
         width: 50%;
         display: inline-block;
         margin: 0;
-        height: 30px;
+        height: 20px;
         margin-top: 10px;
     }
 
@@ -1142,8 +1142,6 @@ ul.instr-list li {
     }
 
 }
-
-
 @media screen and (max-width: 200px) {
 
     .start {
