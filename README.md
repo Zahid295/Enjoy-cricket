@@ -39,3 +39,9 @@ Two types of font are used in the website.
 
 - Quattrocento Sans is used for paragraphs and sans-serif is used if Quattrocento Sans fails to work.
 - Playfair Display is used for headings and serif is used if Playfair Display does not function.
+
+### Wireframes
+
+##### Landing Page
+
+
