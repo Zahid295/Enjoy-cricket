@@ -44,4 +44,20 @@ Two types of font are used in the website.
 
 ##### Landing Page
 
+![Landing page](assets/images/home-page.png)
 
+![Landing page - mobile view](assets/images/home-page-mobile-view.png)
+
+##### Play Game Page
+
+![Play Game page](assets/images/playgame-page.png)
+
+![Play Game page - mobile view](assets/images/Playgame%20page%20-%20Mobile%20view.png)
+
+![Play Game Page - Questions and Choices area](assets/images/playgame-page-game-area-view.png)
+
+##### Feedback page
+
+![Feedback page](assets/images/feedback-page.png)
+
+![Feedback page - mobile view](assets/images/feedback-page-mobile-view.png)
