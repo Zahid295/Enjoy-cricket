@@ -61,3 +61,17 @@ Two types of font are used in the website.
 ![Feedback page](assets/images/feedback-page.png)
 
 ![Feedback page - mobile view](assets/images/feedback-page-mobile-view.png)
+
+### Features
+
+- ##### Home page
+  
+  Home page, provies a clear navigation menu to follow. Below the navigation, guidelines are given that how to play game.
+  
+- ##### Play Game page
+
+  It provides a way to play online cricket quiz after hitting click to play game button. As a user select and submit the multiple choice, an alert appears to show wether the selected choice was correct or incorrect and also shows the correct answer. Once all questions are completed, final score will appear and then play again button show up to play again.
+  
+- ##### Feedback page
+  
+  This page provides form to rate the service out of 5 ratings. It also shows the review form to give some suggestion or recommendation to improve the service.
