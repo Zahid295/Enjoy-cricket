@@ -94,4 +94,15 @@ Two types of font are used in the website.
 - HTML
 - CSS
 - JavaScript
+
+##### Frameworks, Libraries and programs used
+
+- [Codeanywhere](https://codeanywhere.com/solutions/collaborate) - Codeanywhere was used as IDE.
+
+- [Google fonts](https://fonts.google.com/) -  Fonts for this website are from Google Fonts.
+- [Git](https://git-scm.com/) - Git was used for version control.
+- [Github](https://github.com/) - GitHub was used to store project.
+- [Balsamiq](https://balsamiq.com/) - Wireframes were made using Balsamiq.
+- [Canva](https://www.canva.com/) - Was used for image in the Website.
+- [Am i Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on different screen sizes. A screenshot is taken from Am I Responsive.
   
