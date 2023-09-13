@@ -87,6 +87,11 @@ Two types of font are used in the website.
 
   ![Feedback page](assets/images/feedback-page-mobile-view-project.png)
   
-  ### Technologies
-  
+### Technologies used
+
+###### Languages
+
+- HTML
+- CSS
+- JavaScript
   
