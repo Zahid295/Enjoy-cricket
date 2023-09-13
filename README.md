@@ -58,7 +58,7 @@ Two types of font are used in the website.
 
 ##### Feedback page
 
-![Feedback page](assets/images/feedback-page.png)
+![Feedback page](assets/images/)
 
 ![Feedback page - mobile view](assets/images/feedback-page-mobile-view.png)
 
@@ -68,9 +68,7 @@ Two types of font are used in the website.
   
   Home page, provies a clear navigation menu to follow. Below the navigation, guidelines are given that how to play game.
   
-  ![Home page desktop view](assets/images/home-page-project.png)
-  
-  ![Home page mobile](assets/images/home-page-mobile-view-project.png)
+  ![Home page desktop view](assets/images/feedback-page.png)
   
 - ##### Play Game page
 
@@ -88,3 +86,7 @@ Two types of font are used in the website.
   ![Feedback page desktop view](assets/images/feedback-page-project.png)
 
   ![Feedback page](assets/images/feedback-page-mobile-view-project.png)
+  
+  ### Technologies
+  
+  
