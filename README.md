@@ -106,3 +106,7 @@ Two types of font are used in the website.
 - [Canva](https://www.canva.com/) - Was used for image in the Website.
 - [Am i Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on different screen sizes. A screenshot is taken from Am I Responsive.
   
+### Testing
+
+All pages of the project were validated using the W3C Markup Validator and W3C CSS Validator Services to ensure there were no syntax issues.
+  
