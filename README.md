@@ -4,7 +4,7 @@ The Website provides an online quiz to check cricket knowledge. It consists of t
 
 [Click here](https://zahid295.github.io/Enjoy-cricket/) to view live project website.
 
-<img src="assets/images/site-home-page.png">
+![Project website view on different screen sizes](readme_images/site-home-page.png)
 
 ## User Experience
 
@@ -44,23 +44,22 @@ Two types of font are used in the website.
 
 ##### Landing Page
 
-![Landing page](assets/images/home-page.png)
+![Landing page](readme_images/home-page.png)
 
-![Landing page - mobile view](assets/images/home-page-mobile-view.png)
+![Landing page - mobile view](readme_images/home-page-mobile-view.png)
 
 ##### Play Game Page
 
-![Play Game page](assets/images/playgame-page.png)
+![Play Game page](readme_images/playgame-page.png)
 
-![Play Game page - mobile view](assets/images/Playgame%20page%20-%20Mobile%20view.png)
+![Play Game page - mobile view](readme_images/Playgame%20page%20-%20Mobile%20view.png)
 
-![Play Game Page - Questions and Choices area](assets/images/playgame-page-game-area-view.png)
+![Play Game Page - Questions and Choices area](readme_images/playgame-page-game-area-view.png)
 
 ##### Feedback page
 
-![Feedback page](assets/images/)
+![Feedback page](readme_images/feedback-page.png)
 
-![Feedback page - mobile view](assets/images/feedback-page-mobile-view.png)
 
 ### Features
 
@@ -68,24 +67,24 @@ Two types of font are used in the website.
   
   Home page, provies a clear navigation menu to follow. Below the navigation, guidelines are given that how to play game.
   
-  ![Home page desktop view](assets/images/feedback-page.png)
+  ![Home page desktop view](readme_images/home-page-project.png)
   
 - ##### Play Game page
 
   It provides a way to play online cricket quiz after hitting click to play game button. As a user select and submit the multiple choice, an alert appears to show wether the selected choice was correct or incorrect and also shows the correct answer. Once all questions are completed, final score will appear and then play again button show up to play again.
   
-  ![Play Game page desktop view](assets/images/feedback-page-project.png)
+  ![Play Game page desktop view](readme_images/feedback-page-project.png)
 
-  ![Play Game page mobile view](assets/images/playgame-page-mobile-view-project.png)
+  ![Play Game page mobile view](readme_images/playgame-page-mobile-view-project.png)
 
-  ![Play Game page game area](assets/images/playgame-area-project.png)
+  ![Play Game page game area](readme_images/playgame-area-project.png)
 - ##### Feedback page
   
   This page provides form to rate the service out of 5 ratings. It also shows the review form to give some suggestion or recommendation to improve the service.
 
-  ![Feedback page desktop view](assets/images/feedback-page-project.png)
+  ![Feedback page desktop view](readme_images/feedback-page-project.png)
 
-  ![Feedback page](assets/images/feedback-page-mobile-view-project.png)
+  ![Feedback page](readme_images/feedback-page-mobile-view-project.png)
   
 ### Technologies used
 
