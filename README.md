@@ -117,3 +117,4 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 
 ##### - Play Game page
 
+![Play Game page validation](readme_images/playgame-page-validation.png)
