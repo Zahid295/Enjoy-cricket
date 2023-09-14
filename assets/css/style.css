@@ -1,3 +1,5 @@
+/* Style for body and html */
+
 html,
 body {
     width: 100%;
@@ -10,11 +12,13 @@ body {
     background-color: rgba(255, 0, 0, 0.742);
 }
 
+/* Style for body to text align center */
 
 body {
     text-align: center;
 }
 
+/* Style for material icon */
 
 .material-symbols-outlined {
     Float: left;
@@ -26,6 +30,7 @@ body {
     margin-left: 5px;
 }
 
+/* Style for elements inside header */
 
 .headings-box {
     height: 40px;
@@ -35,6 +40,8 @@ body {
     position: relative;
 
 }
+
+/* Style for logo heading */
 
 .logo-heading {
     float: left;
@@ -46,6 +53,8 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Style for Nav bar */
 
 .nav-bar {
     font-family: 'Playfair Display', serif;
@@ -94,10 +103,14 @@ body {
     text-decoration: none;
 }
 
+/* Style for profile button */
+
 .control-button {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
 }
+
+/* Style for h2 heading on play game page */
 
 .quiz-heading2 {
     font-family: 'Playfair Display', serif;
@@ -108,6 +121,8 @@ body {
     margin-top: 50px;
     display: block;
 }
+
+/* Style for alert heading */
 
 .alert-heading-box {
     height: 80px;
@@ -131,6 +146,8 @@ body {
 
 }
 
+/* Style for paragrapgh tag that shows user name */
+
 .show-data {
     height: 25px;
     width: auto;
@@ -141,14 +158,17 @@ body {
     margin-top: 0;
 }
 
+/* Style for avatar image */
+
 .profile-avatar {
     vertical-align: middle;
     width: 60px;
     height: 60px;
     margin-left: 110px;
     visibility: hidden;
-
 }
+
+/* Style for questions and choices div */
 
 #main-box {
 
@@ -166,13 +186,16 @@ body {
     display: none;
 }
 
+/* Style for Questions div */
+
 .quiz {
     font-size: 15px;
     margin: 10px;
     color: black;
     font-weight: 600;
-
 }
+
+/* Style for options div */
 
 .option {
     background-color: white;
@@ -183,8 +206,9 @@ body {
     text-align: center;
     cursor: pointer;
     width: 40%;
-
 }
+
+/* Style for span element that says click to play quiz */
 
 .start {
     font-size: 15px;
@@ -199,6 +223,8 @@ body {
     width: 20%;
 }
 
+/* Style for options div */
+
 .option:hover {
     background-color: rgb(238, 199, 199)
 }
@@ -211,16 +237,21 @@ body {
     background-color: blue;
 }
 
+/* Style for score div */
+
 #quiz-score {
     font-size: 20px;
     margin-top: 20px;
 }
+
+/* Style for social media icons's main div */
 
 .social-icons {
     max-height: 50px;
     margin: 0px 0px 5px 0px;
 }
 
+/* Style for next button in questions and choices div */
 .button-btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font: 15px;
@@ -228,13 +259,8 @@ body {
     margin-top: 10px;
 }
 
-/*
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-*/
+/* Style for Social Conatainer div */
+
 .social-container {
     display: flex;
     width: 100%;
@@ -243,6 +269,8 @@ footer {
     justify-content: baseline;
     border-radius: 5px;
 }
+
+/* Style for individual divs in Social container */
 
 .social-container>div {
     display: inline;
@@ -254,9 +282,13 @@ footer {
     margin-top: 5px;
 }
 
+/* Style for follow us h5 heading */
+
 .follow-us {
     text-align: center;
 }
+
+/* Style for Model box */
 
 #profile-model {
     display: flex;
@@ -268,24 +300,8 @@ footer {
     background-color: rgb(204, 189, 189);
     align-items: center;
     flex-wrap: nowrap;
-    
 }
 
-/*
-#profile-submit {
-    margin: 10px 0px 0px 10px;
-}
-*/
-/*
-#profile-model div {
-    
-    display: inline;
-    font-size: 15px;
-    margin-left: 20px;
-    
-    
-}
-*/
 #profile-model .enter-div {
     display: inline;
     font-size: 15px;
@@ -325,16 +341,6 @@ footer {
     flex-grow: 0;
 }
 
-
-/*
-.close-popup {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-*/
-
 .profile-model-style {
 
     visibility: hidden;
@@ -345,6 +351,8 @@ footer {
 .close-popup {
     margin-bottom: 15px;
 }
+
+/* Style for rate section */
 
 .rate-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -411,6 +419,8 @@ footer {
     border: none;
     color: blue;
 }
+
+/* Style for review section */
 
 .review-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -479,6 +489,7 @@ footer {
     border: none;
     color: blue;
 }
+/* Style for empty box */
 
 .empty-box {
     height: 210px;
@@ -491,25 +502,8 @@ footer {
     width: auto;
 }
 
-/*
-.instructions {
-    height: 220px;
-    width: 50%;
-    
-}
-.instr-para {
-    height: 180px;
-    width: auto
-    
-}
-.instr-list {
-    height: 150px;
-    width: auto;
-    te
+/* Style home page instructions div */
 
-    
-}
-*/
 #instructions {
     font-family: 'Quattrocento Sans', sans-serif;
     height: 400px;
@@ -546,10 +540,17 @@ ul.instr-list li {
 
 }
 
+/* Media queries for devices with max width 1200px */
+
 @media screen and (max-width: 1200px) {
+
+    /* Style for span element with text click to play quiz */
+
     .start {
         width: 20%;
     }
+    
+    /* Style for Model box */
 
     #profile-model {
         display: flex;
@@ -593,17 +594,19 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
-
-
-
-
-
 }
 
+/* Style for devices with max width 950px */
+
 @media screen and (max-width: 950px) {
+
+    /* Style for span element with text click to play quiz */
+
     .start {
         width: 20%;
     }
+    
+    /* Style for Model box */
 
     #profile-model {
         display: flex;
@@ -657,15 +660,9 @@ ul.instr-list li {
         width: auto;
         margin: 5px 0px 0px 0px;
     }
+    
+    /* Style for review section */
 
-    /*
-    .close-popup {
-        margin-bottom: 15px;
-    }
-    #profile-submit {
-        margin: 10px 0px 0px 30px;
-    }
-    */
     .review-section {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 300;
@@ -675,11 +672,17 @@ ul.instr-list li {
         filter: contrast(1.7);
         margin: 30px 0px 230px 0px;
     }
+    
+    /* Style for empty box */
+
     .empty-box {
         height: 210px;
         width: 100%;
         margin-top: 240px;
     }
+    
+    /* Style for home page instructions div */
+
     #instructions {
         height: 400px;
         width: auto;
@@ -689,33 +692,50 @@ ul.instr-list li {
 
 }
 
+/* Style for devices with max width 600 px */
+
 @media screen and (max-width: 600px) {
+
+    /* Style for span element with text click to play quiz */
+
     .start {
         width: 30%;
     }
+    
+    /* Style for header */
 
     header.headings-box {
         position: relative;
         height: 160px;
         width: auto;
     }
+    
+    /* Style for avatar image */
+
     .profile-avatar {
         height: 60px;
         width: auto;
         margin: 0;
         margin-top: 10px;
     }
+    
+    /* Style for paragrapgh tag that shows user name */
+
     .show-data {
         margin: 5px 0px px 0px;
     }
+    /* Style for h2 heading */
+
     .quiz-heading2 {
         margin: 10px 0px 10px 0px;  
     }
+    
+    /* Style for header */
+
     header.headings-box:after {
 
         display: inline-block;
         height: 100%;
-
     }
 
     h1#logo-box {
@@ -727,21 +747,28 @@ ul.instr-list li {
         border-radius: 5px;
         float: none;
     }
+    
+    /* Style for material icon */
 
     .material-symbols-outlined {
         visibility: hidden;
     }
+    
+    /* Style for nav bar */
 
     .nav-bar {
         text-align: center;
         float: none;
         margin-top: 20px;
     }
+    /* Style for empty box */
 
     #empty {
         max-height: 5px;
         width: auto;
     }
+    
+    /* Style for questions and choices div */
 
     #main-box {
 
@@ -794,31 +821,9 @@ ul.instr-list li {
         font-size: 12px;
 
     }
+    
+    /* Style for Model box */
 
-    /*
-    #next-button {
-        text-align: center;
-        margin: 0;
-        
-        
-    }
-    */
-    /*
-    .headings-box {
-        height: 120px;
-        width: auto;
-        position: relative;
-    
-    }
-    .nav-bar {
-        float: right;
-        display: block;
-        position: relative;
-        margin-left: 40px;
-        height: 20px;
-    
-    }
-    */
     #profile-model {
         display: flex;
         width: 85%;
@@ -861,6 +866,7 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
+    /* Style for home page instructions div */
 
     #instructions {
         height: 400px;
@@ -868,6 +874,9 @@ ul.instr-list li {
         margin-top: 40px;
 
     }
+
+    /* Sytle for empty box */
+
     .empty-box {
         height: 230px;
         width: 100%;
@@ -875,12 +884,19 @@ ul.instr-list li {
 
 }
 
+/* Style for devices width max width 500px */
+
 @media screen and (max-width: 500px) {
+
+    /* Style for span element with text click to play quiz */
+
     .start {
         width: 40%;
         display: inline-block;
         margin: 0;
     }
+    
+    /* Style for nav bar */
 
     .nav-bar {
         height: 25px;
@@ -889,6 +905,8 @@ ul.instr-list li {
 
         margin-left: 5px;
     }
+    
+    /* Style for Image avatar */
 
     .profile-avatar {
         vertical-align: middle;
@@ -897,11 +915,15 @@ ul.instr-list li {
         height: 60px;
         visibility: hidden;
         display: inline-block;
-
     }
+    
+    /* Style for paragrapgh tag that shows user name */
+
     .show-data {
         margin: 5px 0px 0px 0px;
     }
+    
+    /* Style for h2 heading */
 
     .quiz-heading2 {
         box-sizing: border-box;
@@ -911,14 +933,16 @@ ul.instr-list li {
         margin: 0;
         display: block;
     }
+    
+    /* Style for header */
 
     .headings-box {
         height: 150px;
         width: auto;
         display: block;
-
-
     }
+    
+    /* Style for Model box */
 
     #profile-model {
         display: flex;
@@ -967,7 +991,8 @@ ul.instr-list li {
         height: 40px;
     }
 
-    /* Media Query for Review Section */
+    /*  Style for rate paragrapgh */
+
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: blue;
@@ -1000,7 +1025,9 @@ ul.instr-list li {
         font-size: 12px;
 
     }
-
+    
+    /* Style for h5 review heading */
+    
     .review-heading {
         height: 20px;
         width: auto;
@@ -1008,8 +1035,12 @@ ul.instr-list li {
     }
 
 }
+/* Media query for deveices width max width 300px */
 
 @media screen and (max-width: 300px) {
+
+    /* Style for span element with text click to play quiz */
+    
     .start {
         width: 50%;
         display: inline-block;
@@ -1017,30 +1048,37 @@ ul.instr-list li {
         height: 20px;
         margin-top: 10px;
     }
+    
+    /* Style for header */
 
     .headings-box {
         height: 130px;
         width: auto;
         display: block;
-
         position: relative;
-
     }
+    
+    /* Style for alert heading */
 
     .alert-heading-box {
         height: 120px;
         width: auto;
         display: block;
-
     }
+    
+    /* Style for image avatar */
 
     .profile-avatar {
         margin-top: 10px;
     }
+    
+    /* Style for logo heading */
 
     h1#logo-box.logo-heading {
         margin-bottom: 5px;
     }
+    
+    /* Style for heading */
 
     .quiz-heading2 {
         box-sizing: border-box;
@@ -1050,6 +1088,8 @@ ul.instr-list li {
         margin-top: 10px;
         display: block;
     }
+    
+    /* Style for nav bar */
 
     .nav-bar {
         text-align: center;
@@ -1061,6 +1101,8 @@ ul.instr-list li {
         width: 100%;
         display: block;
     }
+    
+    /* Style for Model box */
 
     #profile-model {
         display: flex;
@@ -1108,6 +1150,8 @@ ul.instr-list li {
         width: 10%;
         height: 40px;
     }
+    
+    /* Style for rate paragrapgh */
 
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1143,17 +1187,25 @@ ul.instr-list li {
         font-size: 12px;
 
     }
+    
+    /* Style for review heading */
 
     .review-heading {
         height: 40px;
         width: auto;
         margin: 30px 0px 10px 0px;
     }
+
+    /* Style for review section */
+
     .review-section {
         height: 280px;
         width: auto;
         margin: 0;
     }
+
+    /* Style for alert heading */
+
     .alert {
         height: 25px;
         margin: 0;
@@ -1161,12 +1213,19 @@ ul.instr-list li {
     }
 
 }
+
+/* Media query for devices with max screen width 200px */
+
 @media screen and (max-width: 200px) {
+    
+    /* Style for span element with text click to play quiz */
 
     .start {
         width: 20%;
     }
-
+    
+    /* Style for Model box */
+    
     #profile-model {
         display: flex;
         width: 70%;

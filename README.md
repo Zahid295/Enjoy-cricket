@@ -108,4 +108,3 @@ Two types of font are used in the website.
 ### Testing
 
 All pages of the project were validated using the W3C Markup Validator and W3C CSS Validator Services to ensure there were no syntax issues.
-  
