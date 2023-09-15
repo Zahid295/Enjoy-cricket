@@ -310,6 +310,8 @@ body {
 #profile-model .enter-div {
     display: inline;
     font-size: 15px;
+    filter: contrast(1.75);
+    font-weight: bold;
     width: 15%;
     height: 40px;
     flex-grow: 1;
