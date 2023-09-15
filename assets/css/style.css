@@ -115,6 +115,8 @@ body {
 .quiz-heading2 {
     font-family: 'Playfair Display', serif;
     box-sizing: border-box;
+    color: gold;
+    filter: contrast(1.75);
     text-align: center;
     font-size: 15px;
     height: 20px;
@@ -274,6 +276,7 @@ body {
 .social-container>div {
     display: inline;
     font-size: 10px;
+    font-weight: bold;
     padding: 0px;
     width: 80px;
     height: 20px;
@@ -521,6 +524,7 @@ div.instructions {
 
 ul.instr-list {
     color: #fefefe;
+    font-weight: bold;
     display: inline-block;
     text-align: left;
     margin-bottom: 150px;
@@ -536,6 +540,7 @@ ul.instr-list li {
     height: 22px;
     width: auto;
     color: gold;
+    font-weight: bold;
     text-align: center;
     filter: contrast(2.5);
     
