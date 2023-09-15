@@ -376,6 +376,8 @@ body {
 .rate-heading {
     height: 30px;
     margin: 0;
+    color: gold;
+    filter: contrast(1.75);
     font-weight: 300;
 }
 
