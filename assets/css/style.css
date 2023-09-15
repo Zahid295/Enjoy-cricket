@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     font-family: 'Quattrocento Sans', sans-serif;
     color: black;
-    background-color: rgba(255, 0, 0, 0.742);
+    background-color: rgba(174, 15, 15, 0.758);
 }
 
 /* Style for body to text align center */
@@ -534,8 +534,10 @@ ul.instr-list li {
     font-family: 'Playfair Display', serif;
     height: 22px;
     width: auto;
-    color: blue;
+    color: gold;
     text-align: center;
+    filter: contrast(2.5);
+    
 
 }
 
