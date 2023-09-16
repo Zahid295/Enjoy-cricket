@@ -428,7 +428,8 @@ body {
     margin: 10px 0px 5px 0px;
     border-radius: 5px;
     border: none;
-    color: blue;
+    color: black;
+    filter: contrast(1.75);
 }
 
 /* Style for review section */
