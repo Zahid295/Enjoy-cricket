@@ -387,7 +387,8 @@ body {
 
 .rate-para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: gold;
+    filter: contrast(1.7);
     height: 25px;
     width: auto;
     margin: 0;
