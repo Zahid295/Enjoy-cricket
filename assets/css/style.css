@@ -258,6 +258,12 @@ body {
     margin-top: 20px;
 }
 
+/* Style for next button */
+
+.button-btn:hover {
+    background-color: blue;
+}
+
 /* Style for social media icons's main div */
 
 .social-icons {
