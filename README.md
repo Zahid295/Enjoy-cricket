@@ -133,3 +133,12 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 ![CSS Validation pass](readme_images/css-validation-pass.png)
 
 #### Lighthouse tool results
+
+##### Home page 
+
+![Lighthouse home page report](readme_images/lighthouse-home-page.png)
+
+#### Home page mobile view
+
+![Lighthouse home page report](readme_images/lighthouse-home-page-mobile-view.png)
+
