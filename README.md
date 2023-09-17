@@ -142,3 +142,5 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 
 ![Lighthouse home page report](readme_images/lighthouse-home-page-mobile-view.png)
 
+Tested on the desktop, tablet and mobile phone versions of Chrome, Opera, and Microsoft Edge.
+Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
