@@ -176,3 +176,11 @@ Chrome Developer Tools are used to test responsiveness on the following devices:
 3- As a returner user, I want to follow this website on social media to see if there are any updates.
 
 - User can find social media contact detalis in Footer area of each page.
+
+### Common Bugs
+
+- On the play game page before pressing click to play game button the footer comes just below click to play button in the center of page but once the click to play button is pressed the footer comes to its place in the bottom. To resolve the issue, I used an empty div to the page and give it height and width accordingly so that before pressing click to play button the footer remains in its place in the bottom.
+
+- For the input form that appears after pressing profile button, i used model box. It was difficult to position input form in the center on different screen sizes. To overcome, i used flex box and then it stays on its place in the center.
+
+- In HTML validation, it says heading tags are not in a sequence because i used h2 heading and immedialtely after that i used h5 to hold follow us text before footer. To resolve this issue, I change h5 heading into paragrapgh tag.
