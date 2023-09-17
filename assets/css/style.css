@@ -369,12 +369,14 @@ body {
 .profile-model-style {
 
     visibility: hidden;
-
-
 }
 
 .close-popup {
     margin-bottom: 15px;
+}
+
+#profile-submit:hover {
+    background-color: blue;
 }
 
 /* Style for rate section */
