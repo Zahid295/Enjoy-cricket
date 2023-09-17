@@ -213,3 +213,23 @@ Start Git Bash.
 - To clone the directory, replace the current working directory with the one where you want it to be created.
 - Type the command git clone, and then paste the URL you copied earlier.
 - Press enter to create your local clone.
+
+### Credits
+
+#### Code
+
+- Model box code idea is from [www.w3schools.com](www.w3schools.com)
+- Review form code idea is from [www.w3schools.com](www.w3schools.com)
+
+#### Content
+
+- Content about cricket quiz is from [www.wikipedia.com](www.wikipedia.com)
+
+#### Media
+
+- Images were taken from Pixabay, Unsplash and Canva
+
+### Acknowledgements
+
+- Thanks to my Mentor for continual helpful feedback.
+- Thanks to Tutor support at Code Institute for their support.
