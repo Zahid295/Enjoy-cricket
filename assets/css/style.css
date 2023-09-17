@@ -105,6 +105,14 @@ body {
     text-decoration: none;
 }
 
+.nav-bar a:hover {
+    background-color: blue;
+}
+
+.nav-bar button:hover {
+    background-color: blue;
+}
+
 /* Style for profile button */
 
 .control-button {
