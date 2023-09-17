@@ -144,3 +144,35 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 
 Tested on the desktop, tablet and mobile phone versions of Chrome, Opera, and Microsoft Edge.
 Chrome Developer Tools are used to test responsiveness on the following devices: Desktop, and laptop, Surface Duo, iPad Air, iPad Mini, iPhone 12 Pro, iPhone XR, iPhone SE, Samsung Galaxy S8+, Samsung Galaxy S20 Ultra.
+
+### Testing User Stories from User Experience Section
+
+#### User story testing
+
+##### First time user goals
+
+1- As a first time user, I want to know the purpose of website and what it offers.
+
+- Every page has navigation for users to quickly and easily browse the website and discover all the information they need.
+
+2- As a first time user, I want to play online Cricket quiz to entertain and check my knowledge.
+
+- User can easily go to play game page and start the online quiz by pressing click to play button.
+
+3- As a first time user, I want to know, how to play this online quiz.
+
+- User can find a guide on how to play quiz on home page where it is easily accessible.
+
+##### Returner user goals
+
+1- As a returner user, I want to rate the service.
+
+- User can quickly find rate the service form on feedback page and select the number out of 5 to rate the service and then press send button to submit it.
+
+2- As a returner user, I want to give review for suggesting or recommeding somthing to improve the service.
+
+- User can find review submission form on feedback page to write suggestion or recommend somwthing to improve the service.
+
+3- As a returner user, I want to follow this website on social media to see if there are any updates.
+
+- User can find social media contact detalis in Footer area of each page.
