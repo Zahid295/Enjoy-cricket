@@ -227,7 +227,7 @@ Start Git Bash.
 
 #### Media
 
-- Images were taken from Pixabay, Unsplash and Canva
+- Images were taken from [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/) and [Canva](https://www.canva.com/).
 
 ### Acknowledgements
 
