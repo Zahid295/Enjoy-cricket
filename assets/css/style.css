@@ -640,6 +640,7 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
+    
 }
 
 /* Style for devices with max width 950px */
@@ -717,6 +718,10 @@ ul.instr-list li {
         width: auto;
         filter: contrast(1.7);
         margin: 30px 0px 230px 0px;
+    }
+
+    .submit-description:hover {
+        background-color: gold;
     }
     
     /* Style for empty box */
@@ -1248,6 +1253,10 @@ ul.instr-list li {
         height: 280px;
         width: auto;
         margin: 0;
+    }
+
+    .submit-description:hover {
+        background-color: gold;
     }
 
     /* Style for alert heading */
