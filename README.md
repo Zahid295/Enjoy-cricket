@@ -52,9 +52,9 @@ Two types of font are used in the website.
 
 ![Play Game page](readme_images/playgame-page.png)
 
-![Play Game page - mobile view](readme_images/Playgame%20page%20-%20Mobile%20view.png)
+![Play Game page - mobile view](readme_images/playgame-page-mobile-project.png)
 
-![Play Game Page - Questions and Choices area](readme_images/playgame-page-game-area-view.png)
+![Play Game Page - Questions and Choices area](readme_images/playgame-page-area-project.png)
 
 ##### Feedback page
 
@@ -73,11 +73,12 @@ Two types of font are used in the website.
 
   It provides a way to play online cricket quiz after hitting click to play game button. As a user select and submit the multiple choice, an alert appears to show wether the selected choice was correct or incorrect and also shows the correct answer. Once all questions are completed, final score will appear and then play again button show up to play again.
   
-  ![Play Game page desktop view](readme_images/feedback-page-project.png)
+  ![Play Game page desktop view](readme_images/playgame-page-project.png)
 
-  ![Play Game page mobile view](readme_images/playgame-page-mobile-view-project.png)
+  ![Play Game page mobile view](readme_images/playgame-page-mobile-project.png)
 
-  ![Play Game page game area](readme_images/playgame-area-project.png)
+  ![Play Game page game area](readme_images/playgame-page-area-project.png)
+  
 - ##### Feedback page
   
   This page provides form to rate the service out of 5 ratings. It also shows the review form to give some suggestion or recommendation to improve the service.
