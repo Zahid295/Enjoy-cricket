@@ -184,3 +184,32 @@ Chrome Developer Tools are used to test responsiveness on the following devices:
 - For the input form that appears after pressing profile button, i used model box. It was difficult to position input form in the center on different screen sizes. To overcome, i used flex box and then it stays on its place in the center.
 
 - In HTML validation, it says heading tags are not in a sequence because i used h2 heading and immedialtely after that i used h5 to hold follow us text before footer. To resolve this issue, I change h5 heading into paragrapgh tag.
+
+### Deployment
+
+#### GitHub Pages
+
+- Log into GitHub and find the repository.
+- Find the Settings Button on menu at the top of Repository, not at the top of page.
+- On the Settings page, scroll down until you find the GitHub Pages section.
+- Click the dropdown labeled 'None' under Source and select Master Branch.
+- It will refresh the page automatically.
+- To find the currently published site link, scroll back down the page in the GitHub Pages section.
+
+#### GitHub Fork
+
+By forking the repository, we create a copy of the repository on our own account so that we can view and/or modify it without impacting the original repository by following these steps:
+
+- Log into GitHub and find the repository.
+- Find the Fork Button at the top of Repository not at the top of page, just below the Settings Button on the menu.
+- By now, you should have the original repository on your GitHub account.
+
+#### Local Clone
+
+- Log into GitHub and find the repository.
+- Click on the "Clone or Download" button under the repository name.
+- For cloning the repository using HTTPS, under Clone with HTTPS, copy the link.
+Start Git Bash.
+- To clone the directory, replace the current working directory with the one where you want it to be created.
+- Type the command git clone, and then paste the URL you copied earlier.
+- Press enter to create your local clone.
