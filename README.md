@@ -52,9 +52,9 @@ Two types of font are used in the website.
 
 ![Play Game page](readme_images/playgame-page.png)
 
-![Play Game page - mobile view](readme_images/playgame-page-mobile-project.png)
+![Play Game page - mobile view](readme_images/Playgame%20page%20-%20Mobile%20view.png)
 
-![Play Game Page - Questions and Choices area](readme_images/playgame-page-area-project.png)
+![Play Game Page - Questions and Choices area](readme_images/playgame-page-game-area-view.png)
 
 ##### Feedback page
 
