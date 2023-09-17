@@ -131,3 +131,5 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 ![CSS Validation fail](readme_images/css-validation-fail.png)
 
 ![CSS Validation pass](readme_images/css-validation-pass.png)
+
+#### Lighthouse tool results
