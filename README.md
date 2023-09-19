@@ -102,6 +102,9 @@ Two types of font are used in the website.
 - [Google fonts](https://fonts.google.com/) -  Fonts for this website are from Google Fonts.
 - [Git](https://git-scm.com/) - Git was used for version control.
 - [Github](https://github.com/) - GitHub was used to store project.
+- [W3C Validator](https://validator.w3.org/) - W3C Validator is used to test HTML Code.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - W3C CSS Validator is used to test CSS code.
+- [JShint Validator](https://jshint.com/) - Jshint Validator is used to test Javascript code.
 - [Balsamiq](https://balsamiq.com/) - Wireframes were made using Balsamiq.
 - [Canva](https://www.canva.com/) - Was used for image in the Website.
 - [Am i Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on different screen sizes. A screenshot is taken from Am I Responsive.
@@ -131,6 +134,8 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 ![CSS Validation fail](readme_images/css-validation-fail.png)
 
 ![CSS Validation pass](readme_images/css-validation-pass.png)
+
+#### JShint Validator 
 
 #### Lighthouse tool results
 
