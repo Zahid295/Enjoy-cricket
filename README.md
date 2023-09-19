@@ -135,7 +135,9 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 
 ![CSS Validation pass](readme_images/css-validation-pass.png)
 
-#### JShint Validator 
+#### JShint Validator Results
+
+![JsavaScript Validation](readme_images/Js-validation.png)
 
 #### Lighthouse tool results
 
