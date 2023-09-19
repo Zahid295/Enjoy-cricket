@@ -1,4 +1,6 @@
- //Array for questions and choices 
+ //Array for questions and choices
+
+/*jshint esversion: 6 */
   
 const questions_Options = [
     {
@@ -34,7 +36,7 @@ const quizQuestions = document.getElementById("questions");
 const quizChoices = document.getElementById("choices");
 const nextButton = document.getElementById("next-button");
 const quizScore = document.getElementById("quiz-score");
-const alert = document.querySelector(".alert");
+const Alert = document.querySelector(".alert");
 const startButton = document.querySelector(".start");
 const emptyBox = document.querySelector(".empty-box");
 
@@ -76,10 +78,10 @@ function quizscore() {
 }
 // Function to show alerts
 function showAlert(message) {
-    alert.style.visibility = "visible";
-    alert.textContent = message;
+    Alert.style.visibility = "visible";
+    Alert.textContent = message;
     setTimeout(() => {
-        alert.style.visibility = "hidden";
+        Alert.style.visibility = "hidden";
     }, 2000);
 }
 
@@ -125,7 +127,7 @@ function displayQuestions() {
     const questionItem = questions_Options[initialQuestion];
     quizQuestions.textContent = questionItem.ques;
     quizChoices.textContent = "";
-    for (i = 0; i < questionItem.opts.length; i++) {
+    for (let i = 0; i < questionItem.opts.length; i++) {
         const currentOption = questionItem.opts[i];
         const optiondiv = document.createElement('div');
         optiondiv.textContent = currentOption;
@@ -134,9 +136,9 @@ function displayQuestions() {
 
         optiondiv.addEventListener('click', function() {
               if (optiondiv.classList.contains('selected')) {
-                optiondiv.classList.remove('selected')
+                optiondiv.classList.remove('selected');
               } else {
-                optiondiv.classList.add('selected')
+                optiondiv.classList.add('selected');
               }
         });
     }
@@ -157,28 +159,24 @@ let showData = document.querySelector(".show-data");
     profileDiv.style.visibility = "hidden";
 profileButton.onclick = function () {
     profileDiv.style.visibility = "visible";
-}
+};
 // Function to close profile pop up
 profileSpan.onclick = function () {
     profileDiv.style.visibility = "hidden";
-}
+};
 // Function to close profile pop up when click anywhere outside of model
 window.onclick = function (event) {
     if (event.target == profileDiv) {
-        profileDiv.style.visibility = "hodden";
+        profileDiv.style.visibility = "hidden";
     }
-}
+};
  
     
 submitProfile.onclick = function () {
     showData.innerHTML = userData.value;
     profileDiv.style.display = "none";
     profileAvatar.style.visibility = "visible";
-
-
-
-
-}
+};
 
 
   
