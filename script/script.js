@@ -1,7 +1,7 @@
- //Array for questions and choices
+//Array for questions and choices
 
 /*jshint esversion: 6 */
-  
+
 const questions_Options = [
     {
         ques: "What is the biggest capacity cricket ground in England?",
@@ -26,7 +26,7 @@ const questions_Options = [
     {
         ques: "What is the highest first innings score in test cricket?",
         opts: ["903", "803", "1000", "602"],
-        correct_option: "903", 
+        correct_option: "903",
     }
 ];
 
@@ -48,24 +48,24 @@ let quizFinish = false;
 // Function to test correct and wrong answers
 function testAnswer() {
     const selectedOption = document.querySelector('.option.selected');
-    if (selectedOption.textContent === questions_Options[initialQuestion].correct_option){
-        
+    if (selectedOption.textContent === questions_Options[initialQuestion].correct_option) {
+
         showAlert("Correct Answer");
         score++;
-        
+
     } else {
-        
+
         showAlert(`Wrong Answer! ${questions_Options[initialQuestion].correct_option} is Correct Answer`);
     }
-       initialQuestion++;
-       if (initialQuestion < questions_Options.length) {
-            displayQuestions();
-    
-        } else {
+    initialQuestion++;
+    if (initialQuestion < questions_Options.length) {
+        displayQuestions();
 
-               quizscore();
-               quizFinish = true;
-        }
+    } else {
+
+        quizscore();
+        quizFinish = true;
+    }
 }
 // Function to display score
 function quizscore() {
@@ -74,7 +74,7 @@ function quizscore() {
     quizScore.textContent = `You scored ${score} out of ${questions_Options.length}`;
     showAlert("Your quiz has Ended");
     nextButton.textContent = "Play Again";
-    
+
 }
 // Function to show alerts
 function showAlert(message) {
@@ -93,14 +93,14 @@ startButton.addEventListener('click', function () {
     emptyBox.style.display = "none";
     displayQuestions();
 });
-  
+
 
 // Add EventListner for next button
 
-nextButton.addEventListener('click', function() {
+nextButton.addEventListener('click', function () {
     const selectedOption = document.querySelector('.option.selected');
     if (!selectedOption && nextButton.textContent === "Next") {
-        
+
         showAlert("Select your Answer");
         return;
     }
@@ -119,7 +119,7 @@ nextButton.addEventListener('click', function() {
         testAnswer();
     }
     testAnswer();
-      
+
 });
 
 // Function to show questions and options
@@ -134,12 +134,12 @@ function displayQuestions() {
         optiondiv.classList.add("option");
         quizChoices.appendChild(optiondiv);
 
-        optiondiv.addEventListener('click', function() {
-              if (optiondiv.classList.contains('selected')) {
+        optiondiv.addEventListener('click', function () {
+            if (optiondiv.classList.contains('selected')) {
                 optiondiv.classList.remove('selected');
-              } else {
+            } else {
                 optiondiv.classList.add('selected');
-              }
+            }
         });
     }
 
@@ -156,7 +156,7 @@ let showData = document.querySelector(".show-data");
 
 
 // Function to display profile pop up
-    profileDiv.style.visibility = "hidden";
+profileDiv.style.visibility = "hidden";
 profileButton.onclick = function () {
     profileDiv.style.visibility = "visible";
 };
@@ -170,20 +170,43 @@ window.onclick = function (event) {
         profileDiv.style.visibility = "hidden";
     }
 };
- 
-    
+
+
 submitProfile.onclick = function () {
     showData.innerHTML = userData.value;
     profileDiv.style.display = "none";
     profileAvatar.style.visibility = "visible";
 };
 
+// Function for Form validation
 
-  
+//rateForm = document.getElementById('rate-form');
+document.getElementById('rate-form').addEventListener('submit', function (event) {
+    let radioOption = document.getElementsByName('rating');
+    let rateValidation = false;
+
+    for (let i=0;  i<radioOption.length; i++) {
+        if (radioOption[i].checked) {
+        rateValidation = true;
+        return true;
+        break;
+      }
+        
+    }
+    if (!rateValidation){
+        alert("Please select rating");
+        returnToPreviousPage();
+        return false;
+        event.preventDefault();
+    }
+    return rateValidation;
+});
 
 
 
 
 
 
-    
+
+
+
