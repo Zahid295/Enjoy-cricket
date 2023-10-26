@@ -51,6 +51,7 @@ body {
     font-size: 20px;
     background-color: #FFFF00;
     color: #000000;
+    font-weight: bold;
     filter: contrast(1.7);
     margin: 0px;
     border-radius: 5px;
@@ -69,6 +70,7 @@ body {
 
 .nav-bar button {
     color: #000000;
+    font-weight: bold;
     background-color: #FFFF00;
     filter: contrast(1.7);
     border: none;
@@ -78,6 +80,7 @@ body {
 
 .nav-bar .play-game {
     color: #000000;
+    font-weight: bold;
     background-color: #FFFF00;
     filter: contrast(1.7);
 
@@ -89,6 +92,7 @@ body {
 
 .nav-bar .home-link {
     color: #000000;
+    font-weight: bold;
     background-color: #FFFF00;
 
     border: none;
@@ -99,6 +103,7 @@ body {
 
 .nav-bar .feedback-link {
     color: #000000;
+    font-weight:bold;
     background-color: #FFFF00;
 
     border: none;
@@ -165,7 +170,7 @@ body {
 .show-data {
     height: 25px;
     width: auto;
-    color: gold;
+    color: #000000;
     filter: contrast(1.7);
     text-align: center;
     box-sizing: border-box;
@@ -246,7 +251,7 @@ body {
 }
 
 .button:hover {
-    background-color: red;
+    background-color: #0000FF;
 }
 
 .option.selected {
@@ -385,8 +390,8 @@ body {
 
 .rate-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
-    color: gold;
+    font-weight: 500;
+    color: #000000;
     height: 130px;
     width: auto;
     filter: contrast(1.7);
@@ -396,18 +401,19 @@ body {
 .rate-heading {
     height: 30px;
     margin: 0;
-    color: gold;
+    color: #000000;
     filter: contrast(1.75);
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .rate-form .rateInput {
-    color: gold;
+    color: #000000;
 }
 
 .rate-para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: gold;
+    color: #000000;
+    font-weight: 500;
     filter: contrast(1.7);
     height: 25px;
     width: auto;
@@ -449,7 +455,8 @@ body {
     margin: 10px 0px 5px 0px;
     border-radius: 5px;
     border: none;
-    color: blue;
+    color: #000000;
+    font-weight: 500;
     filter: contrast(1.75);
 }
 
@@ -464,7 +471,7 @@ body {
 .review-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
-    color: gold;
+    color: #000000;
     filter: contrast(1.7);
     height: 290px;
     width: auto;
@@ -532,7 +539,7 @@ body {
     margin-top: 10px;
     border-radius: 5px;
     border: none;
-    color: blue;
+    color: #000000;
 }
 
 /* Style for empty box */
@@ -566,7 +573,7 @@ div.instructions {
 }
 
 ul.instr-list {
-    color: #fefefe;
+    color: #000000;
     font-weight: bold;
     display: inline-block;
     text-align: left;
@@ -582,7 +589,7 @@ ul.instr-list li {
     font-family: 'Playfair Display', serif;
     height: 22px;
     width: auto;
-    color: gold;
+    color: #000000;
     font-weight: bold;
     text-align: center;
     filter: contrast(2.5);
@@ -706,7 +713,7 @@ ul.instr-list li {
 
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: gold;
+        color: #000000;
         height: 25px;
         width: auto;
         margin: 5px 0px 0px 0px;
@@ -717,7 +724,7 @@ ul.instr-list li {
     .review-section {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: 300;
-        color: gold;
+        color: #000000;
         height: 290px;
         width: auto;
         filter: contrast(1.7);
@@ -797,8 +804,8 @@ ul.instr-list li {
     h1#logo-box {
         text-align: center;
         font-size: 20px;
-        background-color: blue;
-        color: white;
+        background-color: #FFFF00;
+        color: #000000;
         margin: 0px;
         border-radius: 5px;
         float: none;
@@ -848,7 +855,7 @@ ul.instr-list li {
 
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: gold;
+        color: #000000;
         height: 40px;
         width: auto;
         margin: 5px 0px 0px 0px;
@@ -1053,7 +1060,7 @@ ul.instr-list li {
 
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: gold;
+        color: #000000;
         height: 40px;
         width: auto;
         margin: 5px 0px 0px 0px;
@@ -1214,7 +1221,7 @@ ul.instr-list li {
 
     .rate-para {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: gold;
+        color: #000000;
         height: 60px;
         width: auto;
         margin: 5px 0px 10px 0px;
