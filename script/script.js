@@ -178,29 +178,7 @@ submitProfile.onclick = function () {
     profileAvatar.style.visibility = "visible";
 };
 
-// Function for Form validation
 
-//rateForm = document.getElementById('rate-form');
-document.getElementById('rate-form').addEventListener('submit', function (event) {
-    let radioOption = document.getElementsByName('rating');
-    let rateValidation = false;
-
-    for (let i=0;  i<radioOption.length; i++) {
-        if (radioOption[i].checked) {
-        rateValidation = true;
-        return true;
-        break;
-      }
-        
-    }
-    if (!rateValidation){
-        alert("Please select rating");
-        returnToPreviousPage();
-        return false;
-        event.preventDefault();
-    }
-    return rateValidation;
-});
 
 
 
