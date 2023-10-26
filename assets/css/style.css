@@ -8,10 +8,10 @@ body {
     padding: 0px;
     overflow-x: hidden;
     font-family: 'Quattrocento Sans', sans-serif;
-    color: black;
-    background-color: green;
-    
-    
+    color: #000000;
+    background-color: #0FB6B5;
+
+
 }
 
 /* Style for body to text align center */
@@ -24,7 +24,7 @@ body {
 
 .material-symbols-outlined {
     Float: left;
-    color: blue;
+    color: #000000;
     filter: contrast(1.7);
     margin-right: 15px;
     font-size: 35px;
@@ -49,8 +49,9 @@ body {
     float: left;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
-    background-color: blue;
-    color: white;
+    background-color: #FFFF00;
+    color: #000000;
+    filter: contrast(1.7);
     margin: 0px;
     border-radius: 5px;
     cursor: pointer;
@@ -67,17 +68,18 @@ body {
 }
 
 .nav-bar button {
-    color: white;
-    background-color: black;
-    filter: contrast(1.8);
+    color: #000000;
+    background-color: #FFFF00;
+    filter: contrast(1.7);
     border: none;
     margin-right: 5px;
     border-radius: 5px;
 }
 
 .nav-bar .play-game {
-    color: white;
-    background-color: black;
+    color: #000000;
+    background-color: #FFFF00;
+    filter: contrast(1.7);
 
     border: none;
     margin-right: 5px;
@@ -86,8 +88,8 @@ body {
 }
 
 .nav-bar .home-link {
-    color: white;
-    background-color: black;
+    color: #000000;
+    background-color: #FFFF00;
 
     border: none;
     margin-right: 5px;
@@ -96,8 +98,8 @@ body {
 }
 
 .nav-bar .feedback-link {
-    color: white;
-    background-color: black;
+    color: #000000;
+    background-color: #FFFF00;
 
     border: none;
     margin-right: 5px;
@@ -125,7 +127,7 @@ body {
 .quiz-heading2 {
     font-family: 'Playfair Display', serif;
     box-sizing: border-box;
-    color: gold;
+    color: #000000;
     filter: contrast(1.75);
     text-align: center;
     font-size: 15px;
@@ -451,7 +453,7 @@ body {
     filter: contrast(1.75);
 }
 
- /* Style for rate submit button */
+/* Style for rate submit button */
 
 .enter-button:hover {
     background-color: gold;
@@ -469,6 +471,7 @@ body {
     filter: contrast(1.7);
     margin: 30px 0px 220px 0px;
 }
+
 .review-box {
     height: 280px;
     width: auto;
@@ -531,6 +534,7 @@ body {
     border: none;
     color: blue;
 }
+
 /* Style for empty box */
 
 .empty-box {
@@ -582,7 +586,7 @@ ul.instr-list li {
     font-weight: bold;
     text-align: center;
     filter: contrast(2.5);
-    
+
 
 }
 
@@ -595,7 +599,7 @@ ul.instr-list li {
     .start {
         width: 20%;
     }
-    
+
     /* Style for Model box */
 
     #profile-model {
@@ -640,7 +644,7 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
-    
+
 }
 
 /* Style for devices with max width 950px */
@@ -652,7 +656,7 @@ ul.instr-list li {
     .start {
         width: 20%;
     }
-    
+
     /* Style for Model box */
 
     #profile-model {
@@ -707,7 +711,7 @@ ul.instr-list li {
         width: auto;
         margin: 5px 0px 0px 0px;
     }
-    
+
     /* Style for review section */
 
     .review-section {
@@ -723,7 +727,7 @@ ul.instr-list li {
     .submit-description:hover {
         background-color: gold;
     }
-    
+
     /* Style for empty box */
 
     .empty-box {
@@ -731,14 +735,14 @@ ul.instr-list li {
         width: 100%;
         margin-top: 240px;
     }
-    
+
     /* Style for home page instructions div */
 
     #instructions {
         height: 400px;
         width: auto;
         margin-bottom: 260px;
-    
+
     }
 
 }
@@ -752,7 +756,7 @@ ul.instr-list li {
     .start {
         width: 30%;
     }
-    
+
     /* Style for header */
 
     header.headings-box {
@@ -760,7 +764,7 @@ ul.instr-list li {
         height: 160px;
         width: auto;
     }
-    
+
     /* Style for avatar image */
 
     .profile-avatar {
@@ -769,18 +773,19 @@ ul.instr-list li {
         margin: 0;
         margin-top: 10px;
     }
-    
+
     /* Style for paragrapgh tag that shows user name */
 
     .show-data {
         margin: 5px 0px 0px 0px;
     }
+
     /* Style for h2 heading */
 
     .quiz-heading2 {
-        margin: 10px 0px 10px 0px;  
+        margin: 10px 0px 10px 0px;
     }
-    
+
     /* Style for header */
 
     header.headings-box:after {
@@ -798,13 +803,13 @@ ul.instr-list li {
         border-radius: 5px;
         float: none;
     }
-    
+
     /* Style for material icon */
 
     .material-symbols-outlined {
         visibility: hidden;
     }
-    
+
     /* Style for nav bar */
 
     .nav-bar {
@@ -812,13 +817,14 @@ ul.instr-list li {
         float: none;
         margin-top: 20px;
     }
+
     /* Style for empty box */
 
     #empty {
         max-height: 5px;
         width: auto;
     }
-    
+
     /* Style for questions and choices div */
 
     #main-box {
@@ -872,7 +878,7 @@ ul.instr-list li {
         font-size: 12px;
 
     }
-    
+
     /* Style for Model box */
 
     #profile-model {
@@ -917,6 +923,7 @@ ul.instr-list li {
         width: 5%;
         height: 40px;
     }
+
     /* Style for home page instructions div */
 
     #instructions {
@@ -946,7 +953,7 @@ ul.instr-list li {
         display: inline-block;
         margin: 0;
     }
-    
+
     /* Style for nav bar */
 
     .nav-bar {
@@ -956,7 +963,7 @@ ul.instr-list li {
 
         margin-left: 5px;
     }
-    
+
     /* Style for Image avatar */
 
     .profile-avatar {
@@ -967,13 +974,13 @@ ul.instr-list li {
         visibility: hidden;
         display: inline-block;
     }
-    
+
     /* Style for paragrapgh tag that shows user name */
 
     .show-data {
         margin: 5px 0px 0px 0px;
     }
-    
+
     /* Style for h2 heading */
 
     .quiz-heading2 {
@@ -984,7 +991,7 @@ ul.instr-list li {
         margin: 0;
         display: block;
     }
-    
+
     /* Style for header */
 
     .headings-box {
@@ -992,7 +999,7 @@ ul.instr-list li {
         width: auto;
         display: block;
     }
-    
+
     /* Style for Model box */
 
     #profile-model {
@@ -1076,9 +1083,9 @@ ul.instr-list li {
         font-size: 12px;
 
     }
-    
+
     /* Style for h5 review heading */
-    
+
     .review-heading {
         height: 20px;
         width: auto;
@@ -1086,12 +1093,13 @@ ul.instr-list li {
     }
 
 }
+
 /* Media query for deveices width max width 300px */
 
 @media screen and (max-width: 300px) {
 
     /* Style for span element with text click to play quiz */
-    
+
     .start {
         width: 50%;
         display: inline-block;
@@ -1099,7 +1107,7 @@ ul.instr-list li {
         height: 20px;
         margin-top: 10px;
     }
-    
+
     /* Style for header */
 
     .headings-box {
@@ -1108,7 +1116,7 @@ ul.instr-list li {
         display: block;
         position: relative;
     }
-    
+
     /* Style for alert heading */
 
     .alert-heading-box {
@@ -1116,19 +1124,19 @@ ul.instr-list li {
         width: auto;
         display: block;
     }
-    
+
     /* Style for image avatar */
 
     .profile-avatar {
         margin-top: 10px;
     }
-    
+
     /* Style for logo heading */
 
     h1#logo-box.logo-heading {
         margin-bottom: 5px;
     }
-    
+
     /* Style for heading */
 
     .quiz-heading2 {
@@ -1139,7 +1147,7 @@ ul.instr-list li {
         margin-top: 10px;
         display: block;
     }
-    
+
     /* Style for nav bar */
 
     .nav-bar {
@@ -1152,7 +1160,7 @@ ul.instr-list li {
         width: 100%;
         display: block;
     }
-    
+
     /* Style for Model box */
 
     #profile-model {
@@ -1201,7 +1209,7 @@ ul.instr-list li {
         width: 10%;
         height: 40px;
     }
-    
+
     /* Style for rate paragrapgh */
 
     .rate-para {
@@ -1238,7 +1246,7 @@ ul.instr-list li {
         font-size: 12px;
 
     }
-    
+
     /* Style for review heading */
 
     .review-heading {
@@ -1272,15 +1280,15 @@ ul.instr-list li {
 /* Media query for devices with max screen width 200px */
 
 @media screen and (max-width: 200px) {
-    
+
     /* Style for span element with text click to play quiz */
 
     .start {
         width: 20%;
     }
-    
+
     /* Style for Model box */
-    
+
     #profile-model {
         display: flex;
         width: 70%;
