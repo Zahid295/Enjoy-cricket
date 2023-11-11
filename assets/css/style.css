@@ -457,9 +457,9 @@ footer {
 /* Style for empty box */
 
 .empty-box {
-    height: 210px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 250px;
+    margin-bottom: 90px;
 }
 
 #empty {
@@ -471,7 +471,7 @@ footer {
 
 #instructions {
     font-family: 'Quattrocento Sans', sans-serif;
-    height: 400px;
+    height: 380px;
     width: auto;
     margin-bottom: 20px;
 }
