@@ -144,39 +144,6 @@ function displayQuestions() {
     }
 
 }
-// For profile pop up
-let profileDiv = document.querySelector("#profile-model");
-let profileButton = document.getElementById("profile-button");
-let profileSpan = document.getElementsByClassName("close-popup")[0];
-let submitProfile = document.getElementById("profile-submit");
-let profileAvatar = document.querySelector(".profile-avatar");
-let userData = document.querySelector("#profile");
-let showData = document.querySelector(".show-data");
-
-
-
-// Function to display profile pop up
-profileDiv.style.visibility = "hidden";
-profileButton.onclick = function () {
-    profileDiv.style.visibility = "visible";
-};
-// Function to close profile pop up
-profileSpan.onclick = function () {
-    profileDiv.style.visibility = "hidden";
-};
-// Function to close profile pop up when click anywhere outside of model
-window.onclick = function (event) {
-    if (event.target == profileDiv) {
-        profileDiv.style.visibility = "hidden";
-    }
-};
-
-
-submitProfile.onclick = function () {
-    showData.innerHTML = userData.value;
-    profileDiv.style.display = "none";
-    profileAvatar.style.visibility = "visible";
-};
 
 
 
