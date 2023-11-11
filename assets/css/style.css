@@ -282,7 +282,7 @@ footer {
 
 .social-container>div {
     display: inline;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     padding: 0px;
     width: 80px;
@@ -291,11 +291,17 @@ footer {
     margin-top: 5px;
 }
 
+.social-container div a {
+    color: #000000;
+    font-weight: bold;
+}
+
 /* Style for follow us h5 heading */
 
 .follow-us {
     text-align: center;
     font-weight: bold;
+    font-size: 15px;
 }
 
 /* Style for rate section */
@@ -382,13 +388,13 @@ footer {
 
 .review-section {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     color: #000000;
     filter: contrast(1.7);
     height: 200px;
     width: auto;
     filter: contrast(1.7);
-    margin: 30px 0px 85px 0px;
+    margin: 30px 0px 90px 0px;
 }
 
 .review-box {
@@ -427,6 +433,8 @@ footer {
     height: 25px;
     width: auto;
     margin: 10px 0px 0px 0px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .submit-description:hover {
