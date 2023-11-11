@@ -165,28 +165,6 @@ body {
 
 }
 
-/* Style for paragrapgh tag that shows user name */
-
-.show-data {
-    height: 25px;
-    width: auto;
-    color: #000000;
-    filter: contrast(1.7);
-    text-align: center;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-
-/* Style for avatar image */
-
-.profile-avatar {
-    vertical-align: middle;
-    width: 60px;
-    height: 60px;
-    margin-left: 110px;
-    visibility: hidden;
-}
 
 /* Style for questions and choices div */
 
@@ -318,76 +296,6 @@ footer {
 .follow-us {
     text-align: center;
     font-weight: bold;
-}
-
-/* Style for Model box */
-
-#profile-model {
-    display: flex;
-    width: 40%;
-    height: 80px;
-    margin: auto;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgb(204, 189, 189);
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-#profile-model .enter-div {
-    display: inline;
-    font-size: 15px;
-    filter: contrast(1.75);
-    font-weight: bold;
-    width: 15%;
-    height: 40px;
-    flex-grow: 1;
-}
-
-#profile-model .Input-div {
-    display: inline;
-    font-size: 10px;
-    margin-left: 5px;
-    width: 15%;
-    height: 40px;
-    flex-grow: 1;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#profile-model .submit-div {
-    display: inline;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
-    width: 10%;
-    height: 40px;
-    flex-grow: 0;
-    cursor: pointer;
-    border: 5px;
-}
-
-#profile-model .cross-div {
-    display: inline;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 10px;
-    width: 5%;
-    height: 40px;
-    flex-grow: 0;
-}
-
-.profile-model-style {
-
-    visibility: hidden;
-}
-
-.close-popup {
-    margin-bottom: 15px;
-}
-
-#profile-submit:hover {
-    background-color: blue;
 }
 
 /* Style for rate section */
@@ -565,7 +473,7 @@ footer {
     font-family: 'Quattrocento Sans', sans-serif;
     height: 400px;
     width: auto;
-    margin-bottom: 250px;
+    margin-bottom: 20px;
 }
 
 div.instructions {
