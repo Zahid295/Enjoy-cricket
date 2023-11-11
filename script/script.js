@@ -109,8 +109,6 @@ nextButton.addEventListener('click', function () {
         quizScore.textContent = "";
         initialQuestion = 0;
         displayQuestions();
-        profileAvatar.style.visibility = "hidden";
-        showData.innerHTML = "";
 
         quizFinish = false;
         score = 0;
