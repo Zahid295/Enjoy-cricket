@@ -130,11 +130,12 @@ function displayQuestions() {
         quizChoices.appendChild(optiondiv);
 
         optiondiv.addEventListener('click', function () {
-            if (optiondiv.classList.contains('selected')) {
-                optiondiv.classList.remove('selected');
-            } else {
-                optiondiv.classList.add('selected');
-            }
+            const optionSelected = document.querySelectorAll('.option');
+            optionSelected.forEach(function(option) {
+                option.classList.remove('selected');
+            }); 
+            
+            optiondiv.classList.add('selected');
         });
     }
 
