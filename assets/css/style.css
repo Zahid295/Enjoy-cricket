@@ -200,6 +200,7 @@ body {
 .option {
     background-color: white;
     font-size: 12px;
+    font-weight: bold;
     margin: 10px auto 10px auto;
     padding: 10px;
     border-radius: 5px;
@@ -265,9 +266,12 @@ footer {
 /* Style for next button in questions and choices div */
 .button-btn {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font: 15px;
+    font-size: 13px;
+    font-weight: bold;
     padding: 0;
     margin-top: 10px;
+    border-radius: 4px;
+    
 }
 
 /* Style for Social Conatainer div */
