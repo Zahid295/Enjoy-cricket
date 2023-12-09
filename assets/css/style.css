@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     font-family: 'Quattrocento Sans', sans-serif;
     color: #000000;
-    background-color: #0FB6B5;
+    background-color: #87bdd8;
 
 
 }
@@ -115,11 +115,11 @@ body {
 }
 
 .nav-bar a:hover {
-    background-color: blue;
+    background-color: #cfe0e8;
 }
 
 .nav-bar button:hover {
-    background-color: blue;
+    background-color: #cfe0e8;
 }
 
 /* Style for profile button */
@@ -157,7 +157,9 @@ body {
     margin: 0;
     float: none;
     font-size: 15px;
-    background-color: blueviolet;
+    font-weight: bold;
+    background-color: rgb(204, 189, 189);
+    filter: contrast(1.7);
     width: 100%;
     padding: 10px;
     border-radius: 5px;
@@ -217,7 +219,9 @@ body {
     font-weight: bold;
     padding: 5px;
     margin: 40px auto 0px auto;
-    background-color: white;
+    background-color: rgb(204, 189, 189);
+    filter: contrast(1.7);
+    font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     text-align: center;
@@ -232,7 +236,7 @@ body {
 }
 
 .button:hover {
-    background-color: #0000FF;
+    background-color: #cfe0e8;
 }
 
 .option.selected {
@@ -249,7 +253,7 @@ body {
 /* Style for next button */
 
 .button-btn:hover {
-    background-color: blue;
+    background-color: #cfe0e8;
 }
 
 footer {
@@ -331,10 +335,6 @@ footer {
     font-size: 18px;
 }
 
-.rate-form .rateInput {
-    color: #000000;
-}
-
 .rate-para {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
@@ -377,19 +377,27 @@ footer {
 }
 
 .enter-button {
-    margin: 10px 0px 5px 0px;
-    border-radius: 5px;
-    border: none;
-    color: #000000;
-    font-weight: bold;
+    background-color: rgb(204, 189, 189);
+    height: 20px;
+    width: auto;
+    margin: 10px 0px 0px 0px;
     font-size: 14px;
-    filter: contrast(1.75);
+    font-weight: bold;
+    border-radius: 4px;
 }
+.enter-button {
+     height: 20px;
+     width: auto;
+     margin-top: 10px;
+     border-radius: 5px;
+     border: none;
+     color: #000000;
+ }
 
 /* Style for rate submit button */
 
 .enter-button:hover {
-    background-color: gold;
+    background-color: #cfe0e8;
 }
 
 /* Style for review section */
@@ -441,15 +449,17 @@ footer {
 }
 
 .submit-description {
+    background-color: rgb(204, 189, 189);
     height: 25px;
     width: auto;
     margin: 10px 0px 0px 0px;
     font-size: 14px;
     font-weight: bold;
+    
 }
 
 .submit-description:hover {
-    background-color: gold;
+    background-color: #cfe0e8;
 }
 
 #review-content {
@@ -1212,7 +1222,7 @@ ul.instr-list li {
     }
 
     .submit-description:hover {
-        background-color: gold;
+        background-color: #cfe0e8;
     }
 
     /* Style for alert heading */
