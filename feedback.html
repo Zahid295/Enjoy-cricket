@@ -1,103 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cricket quiz game">
-   <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cricket quiz game" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Quattrocento+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Enjoy Cricket</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Header-->
-<header class="headings-box">
-    <span class="material-symbols-outlined">
-        sports_cricket
-    </span>
-    <h1 class="logo-heading" id="logo-box">Enjoy Cricket</h1>
-    <nav>
+    <header class="headings-box">
+      <span class="material-symbols-outlined"> sports_cricket </span>
+      <h1 class="logo-heading" id="logo-box">Enjoy Cricket</h1>
+      <nav>
         <div class="nav-bar">
-            <a href="index.html" class="home-link">Home</a>
-            <a href="play.html" class="play-game">Play Game</a>
-            <a href="feedback.html" class="feedback-link"> Feedback</a>
+          <a href="index.html" class="home-link">Home</a>
+          <a href="play.html" class="play-game">Play Game</a>
+          <a href="feedback.html" class="feedback-link"> Feedback</a>
         </div>
-    </nav>
-</header>
-<!--Header End-->
-  <!--Rate Section-->
-  <!--Rate section for user to rate the service by choosing a number between
+      </nav>
+    </header>
+    <!--Header End-->
+    <!--Rate Section-->
+    <!--Rate section for user to rate the service by choosing a number between
       One and five-->
-  <section class="rate-section">
-    <div class="rate-box">
+    <section class="rate-section">
+      <div class="rate-box">
         <h2 class="rate-heading">Please rate our service</h2>
-        <form class="rate-form" id="rate-form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-            <input type="radio" class="rate-Input" id="one" name="rating" value="1" required>
-            <label for="one" class="rate-Label">1</label>
-            <input type="radio" class="rate-Input" id="two" name="rating" value="2" required>
-            <label for="two" class="rate-Label">2</label>
-            <input type="radio" class="rate-Input" id="three" name="rating" value="3" required>
-            <label for="three" class="rate-Label">3</label>
-            <input type="radio" class="rate-Input" id="four" name="rating" value="4" required>
-            <label for="four" class="rate-Label">4</label>
-            <input type="radio" class="rate-Input" id="five" name="rating" value="5" required>
-            <label for="five" class="rate-Label">5</label>
-            <br>
-            <input type="submit" class="enter-button" value="Send">
+        <form
+          class="rate-form"
+          id="rate-form"
+          action="https://formdump.codeinstitute.net/"
+          method="post"
+          target="_blank"
+        >
+          <input
+            type="radio"
+            class="rate-Input"
+            id="one"
+            name="rating"
+            value="1"
+            required
+          />
+          <label for="one" class="rate-Label">1</label>
+          <input
+            type="radio"
+            class="rate-Input"
+            id="two"
+            name="rating"
+            value="2"
+            required
+          />
+          <label for="two" class="rate-Label">2</label>
+          <input
+            type="radio"
+            class="rate-Input"
+            id="three"
+            name="rating"
+            value="3"
+            required
+          />
+          <label for="three" class="rate-Label">3</label>
+          <input
+            type="radio"
+            class="rate-Input"
+            id="four"
+            name="rating"
+            value="4"
+            required
+          />
+          <label for="four" class="rate-Label">4</label>
+          <input
+            type="radio"
+            class="rate-Input"
+            id="five"
+            name="rating"
+            value="5"
+            required
+          />
+          <label for="five" class="rate-Label">5</label>
+          <br />
+          <input type="submit" class="enter-button" value="Send" />
         </form>
-        
-    </div>
-    <!--Paragraph that helps to understand how rating works-->
-    <p class="rate-para"><span class="satisified">1- Strongly satisfied</span><span class="average">3-4 Averege</span><span
-            class="dissatisified">5- Strongly dissatisified</span></p>
+      </div>
+      <!--Paragraph that helps to understand how rating works-->
+      <p class="rate-para">
+        <span class="satisified">1- Strongly satisfied</span
+        ><span class="average">3-4 Averege</span
+        ><span class="dissatisified">5- Strongly dissatisified</span>
+      </p>
     </section>
     <!--Rate Section End-->
     <!--Review Section-->
-  <section class="review-section">
-    <!--Review section for user to give some feedback by providing some subject and
+    <section class="review-section">
+      <!--Review section for user to give some feedback by providing some subject and
         description in the form-->
-    <div class="review-box">
-    <h3 class="review-heading">To improve our service we will be happy to hear any suggestions</h3>
-    <form class="review-form" id="review-form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
-     <p class="subject-para"><label for="review-content" class="review-label">Subject</label></p>
-     <textarea name="review-text" id="review-content" cols="50" rows="5" required></textarea>
-     <p class="desc-para"><label for="review-exp">Description</label></p>
-     <textarea name="review-desc" id="review-exp" cols="50" rows="5" required></textarea>
-     <br>
-     <input type="submit" value="submit" class="submit-description">
-    </form>
-    </div>
-  </section>
-  <!--Review Section End-->
-  <!--Footer-->
-  <!--Footer contains social media links to follow on-->
+      <div class="review-box">
+        <h3 class="review-heading">
+          To improve our service we will be happy to hear any suggestions
+        </h3>
+        <form
+          class="review-form"
+          id="review-form"
+          action="https://formdump.codeinstitute.net/"
+          method="post"
+          target="_blank"
+        >
+          <p class="subject-para">
+            <label for="review-content" class="review-label">Subject</label>
+          </p>
+          <textarea
+            name="review-text"
+            id="review-content"
+            cols="50"
+            rows="5"
+            required
+          ></textarea>
+          <p class="desc-para"><label for="review-exp">Description</label></p>
+          <textarea
+            name="review-desc"
+            id="review-exp"
+            cols="50"
+            rows="5"
+            required
+          ></textarea>
+          <br />
+          <input type="submit" value="submit" class="submit-description" />
+        </form>
+      </div>
+    </section>
+    <!--Review Section End-->
+    <!--Footer-->
+    <!--Footer contains social media links to follow on-->
     <footer>
-        <div class="social-icons" id="social-contact">
-            <p class="follow-us">Follow us</p>
-            <Hr>
-            <div class="social-container">
-                <div class="social-color">
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)">Facebook</a>
-                </div>
-    
-                <div class="social-color">
-                    <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)">Youtube</a>
-                </div>
-                <div class="social-color">
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)">Twitter</a>
-                </div>
-                <div class="social-color">
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)">Instagram</a>
-                </div>
-            </div>
+      <div class="social-icons" id="social-contact">
+        <p class="follow-us">Follow us</p>
+        <hr />
+        <div class="social-container">
+          <div class="social-color">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              >Facebook</a
+            >
+          </div>
+
+          <div class="social-color">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our YouTube page (opens in a new tab)"
+              >Youtube</a
+            >
+          </div>
+          <div class="social-color">
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Twitter page (opens in a new tab)"
+              >Twitter</a
+            >
+          </div>
+          <div class="social-color">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Instagram page (opens in a new tab)"
+              >Instagram</a
+            >
+          </div>
         </div>
+      </div>
     </footer>
     <!--Footer End-->
-</body>
+  </body>
 </html>

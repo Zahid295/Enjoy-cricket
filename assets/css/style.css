@@ -104,7 +104,7 @@ body {
 
 .nav-bar .feedback-link {
     color: #000000;
-    font-weight:bold;
+    font-weight: bold;
     background-color: rgb(204, 189, 189);
     filter: contrast(1.7);
 
@@ -275,7 +275,7 @@ footer {
     padding: 0;
     margin-top: 10px;
     border-radius: 4px;
-    
+
 }
 
 /* Style for Social Conatainer div */
@@ -385,14 +385,15 @@ footer {
     font-weight: bold;
     border-radius: 4px;
 }
+
 .enter-button {
-     height: 20px;
-     width: auto;
-     margin-top: 10px;
-     border-radius: 5px;
-     border: none;
-     color: #000000;
- }
+    height: 20px;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+}
 
 /* Style for rate submit button */
 
@@ -455,7 +456,7 @@ footer {
     margin: 10px 0px 0px 0px;
     font-size: 14px;
     font-weight: bold;
-    
+
 }
 
 .submit-description:hover {

@@ -233,7 +233,6 @@ By forking the repository, we create a copy of the repository on our own account
 
 - Images were taken from [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/) and [Canva](https://www.canva.com/).
 - Background color and color used for hover over ideas are from [www.w3schools.com](www.w3schools.com).
-  .
 
 ### Acknowledgements
 
