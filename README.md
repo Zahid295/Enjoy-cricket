@@ -15,7 +15,7 @@ The Website provides an online quiz to check cricket knowledge. It consists of t
 - As a first time user, I want to know the purpose of website and what it offers.
 - As a first time user, I want to play online Cricket quiz to entertain and check my knowledge.
 - As a first time user, I want to know, how to play this online quiz.
-  
+
 ##### Returner user goals
 
 - As a returner user, I want to rate the service.
@@ -30,7 +30,7 @@ The main colors used are seagull(a medium light shade of cyan) and Pattens Blue(
 
 - The color Seagull (#87bdd8) can provide a fresh and clean look to quiz game website, enhancing the aesthetics. The right color scheme can make visitors stay longer on your website. Seagull, being a soothing and pleasant color, can create a comfortable environment for users, potentially increasing engagement and time spent on the site. Light colors like Seagull can help maintain a clear visual hierarchy on your website, providing a neutral backdrop against which other more vibrant or darker elements can stand out.
 - On the other hand, Pattens Blue (#cfe0e8) can give website a calm and serene look, enhancing the aesthetics. The right color scheme can make visitors stay longer on your website. Pattens Blue, being a soothing and pleasant color, can create a comfortable environment for users, potentially increasing engagement and time spent on the site. Light colors like Pattens Blue can help maintain a clear visual hierarchy on your website, providing a neutral backdrop against which other more vibrant or darker elements can stand out. Using Pattens Blue with a contrasting accent color will make foreground elements easily distinguishable.
-  
+
 ##### Typography
 
 Two types of font are used in the website.
@@ -58,33 +58,32 @@ Two types of font are used in the website.
 
 ![Feedback page](readme_images/feedback-page.png)
 
-
 ### Features
 
 - ##### Home page
-  
+
   Home page, provies a clear navigation menu to follow. Below the navigation, guidelines are given that how to play game.
-  
+
   ![Home page desktop view](readme_images/home-page-project.png)
-  
+
 - ##### Play Game page
 
   It provides a way to play online cricket quiz after hitting click to play game button. As a user select and submit the multiple choice, an alert appears to show wether the selected choice was correct or incorrect and also shows the correct answer. Once all questions are completed, final score will appear and then play again button show up to play again.
-  
+
   ![Play Game page desktop view](readme_images/playgame-page-project.png)
 
   ![Play Game page mobile view](readme_images/playgame-page-mobile-project.png)
 
   ![Play Game page game area](readme_images/playgame-page-area-project.png)
-  
+
 - ##### Feedback page
-  
+
   This page provides form to rate the service out of 5 ratings. It also shows the review form to give some suggestion or recommendation to improve the service.
 
   ![Feedback page desktop view](readme_images/feedback-page-project.png)
 
   ![Feedback page](readme_images/feedback-page-mobile-view-project.png)
-  
+
 ### Technologies used
 
 ###### Languages
@@ -97,7 +96,7 @@ Two types of font are used in the website.
 
 - [Codeanywhere](https://codeanywhere.com/solutions/collaborate) - Codeanywhere was used as IDE.
 
-- [Google fonts](https://fonts.google.com/) -  Fonts for this website are from Google Fonts.
+- [Google fonts](https://fonts.google.com/) - Fonts for this website are from Google Fonts.
 - [Git](https://git-scm.com/) - Git was used for version control.
 - [Github](https://github.com/) - GitHub was used to store project.
 - [W3C Validator](https://validator.w3.org/) - W3C Validator is used to test HTML Code.
@@ -106,7 +105,7 @@ Two types of font are used in the website.
 - [Balsamiq](https://balsamiq.com/) - Wireframes were made using Balsamiq.
 - [Canva](https://www.canva.com/) - Was used for image in the Website.
 - [Am i Responsive](https://ui.dev/amiresponsive) - was used to see that site is responsive on different screen sizes. A screenshot is taken from Am I Responsive.
-  
+
 ### Testing
 
 All pages of the project were validated using the W3C Markup Validator and W3C CSS Validator Services to ensure there were no syntax issues.
@@ -139,7 +138,7 @@ All pages of the project were validated using the W3C Markup Validator and W3C C
 
 #### Lighthouse tool results
 
-##### Home page 
+##### Home page
 
 ![Lighthouse home page report](readme_images/lighthouse-home-page.png)
 
@@ -214,7 +213,7 @@ By forking the repository, we create a copy of the repository on our own account
 - Log into GitHub and find the repository.
 - Click on the "Clone or Download" button under the repository name.
 - For cloning the repository using HTTPS, under Clone with HTTPS, copy the link.
-Start Git Bash.
+  Start Git Bash.
 - To clone the directory, replace the current working directory with the one where you want it to be created.
 - Type the command git clone, and then paste the URL you copied earlier.
 - Press enter to create your local clone.
@@ -223,16 +222,18 @@ Start Git Bash.
 
 #### Code
 
-- Model box code idea is from [www.w3schools.com](www.w3schools.com)
-- Review form code idea is from [www.w3schools.com](www.w3schools.com)
+- Model box code idea is from [www.w3schools.com](www.w3schools.com).
+- Review form code idea is from [www.w3schools.com](www.w3schools.com).
 
 #### Content
 
-- Content about cricket quiz is from [www.wikipedia.com](www.wikipedia.com)
+- Content about cricket quiz is from [www.wikipedia.com](www.wikipedia.com).
 
 #### Media
 
 - Images were taken from [Pixabay](https://pixabay.com/), [Unsplash](https://unsplash.com/) and [Canva](https://www.canva.com/).
+- Background color and color used for hover over ideas are from [www.w3schools.com](www.w3schools.com).
+  .
 
 ### Acknowledgements
 
