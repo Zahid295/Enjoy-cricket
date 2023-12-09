@@ -4,7 +4,7 @@ The Website provides an online quiz to check cricket knowledge. It consists of t
 
 [Click here](https://zahid295.github.io/Enjoy-cricket/) to view live project website.
 
-![Project website view on different screen sizes](readme_images/site-home-page.png)
+![Project website view on different screen sizes](readme_images/screenshot_different_devices.png)
 
 ## User Experience
 
@@ -26,12 +26,10 @@ The Website provides an online quiz to check cricket knowledge. It consists of t
 
 ##### Color Scheme
 
-The main colors used are red, black, blue and white.
+The main colors used are seagull(a medium light shade of cyan) and Pattens Blue(a very light shade of cyan)
 
-- Red may communicate a range of emotions and meanings. It is used for background because it draws attention.
-- Black color improves readability. It is used for background of nav bar and also for some headings becasue black can produce an attantion grabing visual effect that will draw users in and this is the main goal of any website.
-- Blue color indicates trust and people feel safe with this color. It is used for logo and some headings's background color.
-- White has long been associated with purity, timelessness, elegance, and a sense of peacefulness. It is used for some paragraph text beacsue it has good contrast with red.
+- The color Seagull (#87bdd8) can provide a fresh and clean look to quiz game website, enhancing the aesthetics. The right color scheme can make visitors stay longer on your website. Seagull, being a soothing and pleasant color, can create a comfortable environment for users, potentially increasing engagement and time spent on the site. Light colors like Seagull can help maintain a clear visual hierarchy on your website, providing a neutral backdrop against which other more vibrant or darker elements can stand out.
+- On the other hand, Pattens Blue (#cfe0e8) can give website a calm and serene look, enhancing the aesthetics. The right color scheme can make visitors stay longer on your website. Pattens Blue, being a soothing and pleasant color, can create a comfortable environment for users, potentially increasing engagement and time spent on the site. Light colors like Pattens Blue can help maintain a clear visual hierarchy on your website, providing a neutral backdrop against which other more vibrant or darker elements can stand out. Using Pattens Blue with a contrasting accent color will make foreground elements easily distinguishable.
   
 ##### Typography
 
