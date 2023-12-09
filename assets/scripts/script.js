@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 
 // Import Array for questions and choices from questions_Options.js
-import { questions_Options } from './cricketObjects.js'
+import { questions_Options } from './cricketObjects.js';
 
 // Retrieving html elements in variables
 const quizBox = document.getElementById("main-box");

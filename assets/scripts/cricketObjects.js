@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 //Export Array for questions and choices
 export const questions_Options = [{
     // For the first question and chices
